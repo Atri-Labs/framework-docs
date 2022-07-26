@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "My Site",
-	tagline: "Dinosaurs are cool",
+	title: "Atri Labs",
+	tagline: "Build better apps faster",
 	url: "https://docs.atrilabs.com",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
@@ -38,14 +38,18 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/Atri-Labs/framework-docs/tree/main/",
+					routeBasePath: "/",
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/Atri-Labs/framework-docs/tree/main/",
+				},
+				pages: {
+					routeBasePath: "/pages",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -58,9 +62,9 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
-				title: "My Site",
+				title: "Atri Labs",
 				logo: {
-					alt: "My Site Logo",
+					alt: "Atri Labs Logo",
 					src: "img/logo.svg",
 				},
 				items: [
@@ -68,11 +72,11 @@ const config = {
 						type: "doc",
 						docId: "intro",
 						position: "left",
-						label: "Tutorial",
+						label: "Docs",
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://github.com/Atri-Labs/atrilabs-engine",
 						label: "GitHub",
 						position: "right",
 					},
@@ -82,28 +86,19 @@ const config = {
 				style: "dark",
 				links: [
 					{
-						title: "Docs",
-						items: [
-							{
-								label: "Tutorial",
-								to: "/docs/intro",
-							},
-						],
-					},
-					{
 						title: "Community",
 						items: [
 							{
 								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
+								href: "https://stackoverflow.com/questions/tagged/atri",
 							},
 							{
-								label: "Discord",
+								label: "Slack",
 								href: "https://discordapp.com/invite/docusaurus",
 							},
 							{
-								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
+								label: "Linkedin",
+								href: "https://www.linkedin.com/company/atri-labs",
 							},
 						],
 					},
@@ -116,12 +111,12 @@ const config = {
 							},
 							{
 								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								href: "https://github.com/Atri-Labs/atrilabs-engine",
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Pulastya, Inc.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
