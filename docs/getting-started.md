@@ -42,7 +42,7 @@ mkdir my_app
 cd my_app
 ```
 
-### Create a virual environment
+### Create a virtual environment
 
 If you are using `pipenv` then run the following command to create an environment.
 
