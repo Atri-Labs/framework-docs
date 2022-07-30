@@ -50,7 +50,7 @@ const sidebars = {
       collapsed: false,
       items: [
         'add-bkg-img', 
-        'add-img',
+        'add-static-asset',
       ],
     },
   ]
