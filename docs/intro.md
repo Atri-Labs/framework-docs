@@ -1,6 +1,6 @@
 ---
 title: Introduction
-sidebar_position: 1
+slug: /
 ---
 
 The Atri framework aims at helping Python developers build production grade apps.
