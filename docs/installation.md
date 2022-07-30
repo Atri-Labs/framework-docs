@@ -1,8 +1,7 @@
 ---
-sidebar_position: 2
-title: Getting Started
-description: A short guide to start using Atri Framework for app development
-slug: /
+title: Installation
+description: How to install Atri Framework locally for app development
+slug: getting-started/installation
 ---
 
 ## Install Pre-Requisites

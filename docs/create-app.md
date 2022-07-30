@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
 title: Create your first app
-description: Tutorial to help you create your first app
+description: Tutorial to help you create your first app using Atri framework
+slug: getting-started/create-app
 ---
 Now that we have installed and started the Atri engine, we will create a single page app that contains a bar chart.
 

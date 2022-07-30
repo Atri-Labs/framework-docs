@@ -1,6 +1,7 @@
 ---
-sidebar_position: 3
 title: Start the engine
+description: How to start using Atri framework
+slug: getting-started/start-engine
 ---
 
 Start Docker if it is not already running. Make sure that you have activated the virutal environment.
