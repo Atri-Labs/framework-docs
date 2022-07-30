@@ -1,6 +1,6 @@
 ---
-title: How to add background image
-description: Steps to follow to add background image
+title: Add background image
+description: Steps to add background image
 slug: guides/add-bkg-image
 ---
 1. Click the component picker in the top menu. This will open the sub-menu.

@@ -1,6 +1,6 @@
 ---
-title: Add static assets such as image, audio or video
-description: Steps to add static assets such as image, audio or video
+title: Add static asset such as image, audio or video
+description: Steps to add static asset such as image, audio or video
 slug: guides/add-static-asset 
 ---
 
