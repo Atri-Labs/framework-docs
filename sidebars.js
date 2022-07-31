@@ -52,7 +52,8 @@ const sidebars = {
       items: [
         'page-manager', 
         'component-manager',
-        'template-manager'
+        'template-manager',
+        'breakpoints'
       ],
     },
     {
