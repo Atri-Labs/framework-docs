@@ -115,7 +115,8 @@ const sidebars = {
             'add-static-asset',
           ],
         },
-        'guide-publish'
+        'guide-publish',
+        'guide-breakpoint'
       ],
     }
   ]
