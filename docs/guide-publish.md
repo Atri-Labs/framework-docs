@@ -1,5 +1,5 @@
 ---
-title: Publishing app
+title: Publish an app
 description: Steps to publish our app
 slug: guides/publish-app
 ---
