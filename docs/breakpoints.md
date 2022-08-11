@@ -16,4 +16,6 @@ Note:
 
 2. However, there are cases when we want a materially different design in different screen size. The most common example is a navigation bar replaced by a hamburger menu in a mobile size screen. This can be done by going to `Mobile portrait` breakpoint and specifying the replacement. 
 
+##### Add picture here
+
 3. If a change is made in the `Tablet` breakpoint, it flows down to all the smaller breakpoints. However, the breakpoint larger than `Tablet` remains unchanged. 
