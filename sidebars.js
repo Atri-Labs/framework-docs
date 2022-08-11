@@ -53,7 +53,9 @@ const sidebars = {
         'page-manager', 
         'component-manager',
         'template-manager',
-        'breakpoints'
+        'breakpoints',
+        'publish-app',
+        'custom-panel'
       ],
     },
     {
@@ -113,6 +115,7 @@ const sidebars = {
             'add-static-asset',
           ],
         },
+        'guide-publish'
       ],
     }
   ]
