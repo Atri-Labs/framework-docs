@@ -55,7 +55,8 @@ const sidebars = {
         'template-manager',
         'breakpoints',
         'publish-app',
-        'custom-panel'
+        'custom-panel',
+        'actions-panel'
       ],
     },
     {
