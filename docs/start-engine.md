@@ -14,7 +14,7 @@ From inside `my_app` directory, run
 pipenv shell
 ```
 
-#### Activate conda environment
+#### Or activate conda environment
 
 ```
 conda activate my_env
