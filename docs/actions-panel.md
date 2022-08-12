@@ -20,7 +20,7 @@ For example, if a button is clicked, the event data includes the X, Y coordinate
 Below is an example of how we may use event data in the backend and make changes to the application. 
 
 ```
-# Display Success in textbox if button was clicked
+# Display Success in textbox if button is clicked
 if at.Button1.onClick:
     at.TextBox1.custom.text = "Success"
 ```

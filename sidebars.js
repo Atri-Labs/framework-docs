@@ -61,6 +61,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Concepts of Python backend',
+      link: {
+        type: 'generated-index',
+        description: 'Add a labeled picture with names of all icons.'
+      },
+      collapsed: false,
+      items: [
+        'api-structure', 
+        'intellisense'
+      ],
+    },
+    {
+      type: 'category',
       label: 'How-to guides',
       link: {
         type: 'generated-index',
