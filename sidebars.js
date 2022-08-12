@@ -122,6 +122,15 @@ const sidebars = {
 					collapsed: true,
 					items: ["add-bkg-img", "add-static-asset"],
 				},
+				{
+					type: "category",
+					label: "Deploy app",
+					link: {
+						type: "generated-index",
+					},
+					collapsed: true,
+					items: ["deploy-using-docker", "deploy-manual"],
+				},
 				"guide-publish",
 				"guide-breakpoint",
 			],
