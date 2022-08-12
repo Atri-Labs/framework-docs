@@ -4,7 +4,7 @@ description: Deploy app manually
 slug: guides/deploy-manually
 ---
 
-Running you application involves two steps - starting up the python server and starting up the Node server. Make sure that you have published the app from the visual editor as discussed here [Publish App](/concepts-visual-editor/publish).
+Running you application involves two steps - starting up the python server and starting up the Node server. Make sure that you have published the app from the visual editor as discussed here [Publish App](/concepts-visual-editor/publish). To run it on your system you must have `python` and `NodeJS 16+` installed.
 
 ### Run python server
 
