@@ -3,7 +3,7 @@ title: Install Atri using pipenv
 description: How to install Atri Framework when you are using pipenv virtual environment
 slug: getting-started/installation/using-pipenv
 ---
-### Create an App
+### Create a Project Directory
 
 Create an empty directory. This directory will contain all the files for your app. You can create this empty directory anywhere in your repository. In this example, we are creating a directory called `my_app`. You can choose any name for this directory.
 
