@@ -5,7 +5,7 @@ slug: getting-started/installation/using-pipenv
 ---
 ### Create a Project Directory
 
-Create an empty directory. This directory will contain all the files for your app. You can create this empty directory anywhere in your repository. In this example, we are creating a directory called `my_app`. You can choose any name for this directory.
+Create an empty directory anywhere in your repository. It will later contain all the files for your app. In this example, we are creating a directory called `my_app`. You can choose any name for this directory.
 
 ```
 mkdir my_app
