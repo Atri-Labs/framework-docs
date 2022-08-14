@@ -41,8 +41,6 @@ const sidebars = {
 					label: "Installation",
 					link: {
 						type: "generated-index",
-						description:
-							"Add a labeled picture with names of all icons.",
 					},
 					collapsed: false,
 					items: [
@@ -60,7 +58,6 @@ const sidebars = {
       label: 'Concepts of visual editor',
       link: {
         type: 'generated-index',
-        description: 'Add a labeled picture with names of all icons.'
       },
       collapsed: false,
       items: [
@@ -79,7 +76,6 @@ const sidebars = {
       label: 'Concepts of Python backend',
       link: {
         type: 'generated-index',
-        description: 'Add a labeled picture with names of all icons.'
       },
       collapsed: false,
       items: [
