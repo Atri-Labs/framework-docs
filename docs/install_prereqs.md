@@ -20,7 +20,7 @@ If you do not have `pipenv` installed already, please run the following command 
 pip install --user pipenv
 ```
 
-#### or Conda
+#### Conda
 
 If you would like to use `conda` instead of `pipenv`, please follow the instructions provided [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation) to install `conda`.
 
