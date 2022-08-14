@@ -9,9 +9,9 @@ Before we get started with the framework, please ensure that you satisfy the fol
 
 The Atri framework supports Python version 3.7 and above. If you do not have Python installed already, please download its latest version from [python.org](https://www.python.org/downloads/).
 
-### 2. Virtual environment package
+### 2. Virtual environment manager
 
-We enforce best practices for app development. Hence, `atri` Command Line Interface (CLI) works only from inside a virtual environment. We currently support two virtual environment packages - `pipenv` (preferred) and `conda`. 
+We enforce best practices for app development. Hence, `atri` Command Line Interface (CLI) works only from inside a virtual environment. We currently support two virtual environment tools - `pipenv` (preferred) and `conda`. 
 
 #### Pipenv (preferred)
 If you do not have `pipenv` installed already, please run the following command in the terminal. 
