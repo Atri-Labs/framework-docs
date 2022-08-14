@@ -13,7 +13,7 @@ mkdir my_app
 
 ### Install `atri` CLI
 
-From inside the app directory, `my_app` in this example, run the following command:
+From inside the project directory, `my_app` in this example, run the following command:
 
 ```
 cd my_app
