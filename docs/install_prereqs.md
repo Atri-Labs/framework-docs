@@ -1,7 +1,7 @@
 ---
 title: Install Prerequisites
 description: Prerequisities to satisfy before getting started with Atri Framework
-slug: getting-started/install_prereqs
+slug: getting-started/installation/install_prereqs
 ---
 Before we get started with the framework, please ensure that you satisfy the following prerequisities. 
 
