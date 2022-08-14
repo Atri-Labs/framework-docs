@@ -36,7 +36,21 @@ const sidebars = {
       },
       collapsed: false,
       items: [
-        'installation', 
+				{
+					type: "category",
+					label: "Installation",
+					link: {
+						type: "generated-index",
+						description:
+							"Add a labeled picture with names of all icons.",
+					},
+					collapsed: false,
+					items: [
+						"install_prereqs",
+						"install_with_pipenv",
+						"install_with_conda",
+					],
+				},
         'start-engine', 
         'create-app',
       ],
@@ -130,6 +144,15 @@ const sidebars = {
             'add-static-asset',
           ],
         },
+        {
+					type: "category",
+					label: "Deploy app",
+					link: {
+						type: "generated-index",
+					},
+					collapsed: true,
+					items: ["deploy-using-docker", "deploy-manual"],
+				},
         'guide-publish',
         'guide-breakpoint'
       ],
