@@ -7,7 +7,7 @@ Before we get started with the framework, please ensure that you satisfy the fol
 
 ### 1. Python 3.7+
 
-The Atri framework supports Python version 3.7 and above. 
+The Atri framework supports Python version 3.7 or above. 
 
 If you do not have Python installed already, please download its latest version from [python.org](https://www.python.org/downloads/).
 
