@@ -39,7 +39,7 @@ The frontend code for our app has been auto-generated and saved in our local rep
 
 Let us now feed data to the chart in our app. 
 
-We can make changes to any component in the app through the file at `my_app/controllers/routes/main.py`
+We can make changes to any component in the app through the file at `controllers/routes/main.py`
 
 1. Since this is a historical time series, it is static data and it will not change. Hence, we will provide this dataset in the `init_state()`.
 
