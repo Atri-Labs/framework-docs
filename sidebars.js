@@ -70,7 +70,6 @@ const sidebars = {
         'style-panel',
         'custom-panel',
         'actions-panel',
-        'try-tab'
       ],
     },
     {
