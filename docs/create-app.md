@@ -3,49 +3,64 @@ title: Create your first app
 description: Tutorial to help you create your first app using Atri framework
 slug: getting-started/create-app
 ---
-Now that we have installed and started the Atri engine, we will create a single page app that contains a bar chart.
+Now that we have installed and started the Atri engine, we will create a very simple app - a single page app that contains a bar chart - to get a quick introduction to the framework.
 
 ## Creating frontend of the app
 
-Let's to the visual editor started at `http://localhost:4002`. We will create the frontend of our app here. 
+Let us go to the visual editor started at `http://localhost:4002`. We will create the frontend of our app here. 
 
-1. To add the bar chart, click the component picker in the top menu. 
+1. To add the bar chart, click on the `Open Component Picker` icon in the top menu. 
 
-    a. This will open the sub-menu. 
+![Open Component Picker](/snapshots/open_component_picker.png)
 
-    b. Drag-and-drop the bar chart from the sub-menu onto the canvas. 
+This will open the `Component Picker`. Drag-and-drop the bar chart from the Data section onto the canvas.
 
-2. When we drop the chart onto the canvas, it is selected by default and style panel gets opened. 
+![Add graph](/snapshots/bar_chart.png)
 
-    a. Let us make a style related modification here - we will add a top margin of 20px.
+2. When we drop the chart onto the canvas, its name is visible in the right panel. Let us rename it to `bar1`. 
 
-    b. Let us also change the title of the graph from the custom panel. 
+![Variable name](/snapshots/variable_name.png)
 
 :::note
-We will refer this chart by the same name in the code as mentioned here. 
+We always refer a component by the same name in the code as the name that appears on the right panel. 
 :::
 
-3. Click <i>Publish</i> in the top menu. 
+3. Click `Publish` in the top menu. 
 
-Our app is now built and deployed at `http://localhost:4005/`. 
+![Publish](/snapshots/publish.png)
+
+Our app is now built and is running at `http://localhost:4005/`. 
 
 :::info
-Everything that we built visually has now been converted into frontend code and saved in your local repository. 
+The frontend code for our app has been auto-generated and saved in our local repository. 
 :::
 
 ## Creating backend of the app
 
 Let us now feed data to the chart in our app. 
 
-We can make changes to any component in the app through the file at `my_app/controllers/routes/main.py`
+We can make changes to any component in the app through the file at `controllers/routes/main.py`
 
-1. Since we always want the chart to display this data instead of the the time an event occurs, we will define the X and Y values in the `init_state()`. 
+1. Since this is a historical time series, it is static data and it will not change. Hence, we will provide this dataset in the `init_state()`.
 
 ```python
-at.bar1.custom.x = ['a', 'b', 'c']
-at.bar1.custom.y = [10, 20, 30]
+def init_state(at: Atri):
+    at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50}, 
+                           {"x":2011, "category1":30, "category2":60}]
 ```
+As soon as we save this file, the changes reflect in our app. 
 
-:::tip
-We can use the help of Intellisense provided by our code editor and avoid remembering the API structure.
+:::success Congratulations!
+We successfully created an app in a few minutes. 
 :::
+
+## Next Steps
+
+Atri framework can be used to create powerful multi-page, responsive apps. We are very excited to see the incredible projects you will build. 
+
+Here are a few immediate next steps to consider:
+
+- Create your [portfolio](https://atrilabs.com) to showcase your data science, machine learning or web development skills to the world. 
+- Join our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w) to ask questions, share your projects and get inspired. 
+- Refer the [guides](/category/how-to-guides) to get answers to frequently asked questions.  
+- Learn concepts of the [visual editor](category/concepts-of-visual-editor) and [Python backend](category/concepts-of-python-backend). 

@@ -1,31 +1,52 @@
 ---
-title: Start the engine
+title: Start Atri engine
 description: How to start using Atri framework
 slug: getting-started/start-engine
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Start Docker if it is not already running. Make sure that you have activated the virutal environment.
+Once you have installed `atri` CLI, everytime you return to work on an existing project (or are working on a new project), you always begin by following the instructions in this page.  
 
-#### Activate pipenv environment
+### 1. Activate virtual environment
 
-From inside `my_app` directory, run
+Go to your project root directory and activate the virtual environment you are using. In this example, our project directory is `my_app`. 
+
+<Tabs>
+<TabItem value="pipenv" label="pipenv" default>
 
 ```
+cd my_app
 pipenv shell
 ```
 
-#### Or activate conda environment
+</TabItem>
+<TabItem value="conda" label="conda">
 
 ```
+cd my_app
 conda activate my_env
 ```
 
-Once the docker is running and the virtual environment is activated, please run the following command from inside `my_app` directory.
+</TabItem>
+</Tabs>
+
+### 2. Start Atri engine 
+
+Once the the virtual environment is activated, please run the following command from inside `my_app` directory.
 
 ```
 atri start
 ```
 
+At the start of a new project, you will be asked to select the virtual environment you are using. 
+
 :::info
-This will start the visual editor at `http://localhost:4002`. If the editor doesn't open automatically in the browser, please open `http://localhost:4002` in the browser.
+The visual editor is now available at `http://localhost:4002`. If the editor doesn't open automatically, please manually open `http://localhost:4002` in the browser.
 :::
+
+Congratulations! Atri framework is now ready to use. 
+
+### Next Steps
+
+If you are using the framework for the first time, we strongly recommend you follow the upcoming tutorial to create a simple app. 

@@ -41,11 +41,10 @@ const sidebars = {
 					label: "Installation",
 					link: {
 						type: "generated-index",
-						description:
-							"Add a labeled picture with names of all icons.",
 					},
 					collapsed: false,
 					items: [
+						"video-guide",
 						"install_prereqs",
 						"install_with_pipenv",
 						"install_with_conda",
