@@ -44,8 +44,9 @@ We can make changes to any component in the app through the file at `controllers
 1. Since this is a historical time series, it is static data and it will not change. Hence, we will provide this dataset in the `init_state()`.
 
 ```python
-at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50}, 
-                            {"x":2011, "category1":30, "category2":60}]
+def init_state(at: Atri):
+    at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50}, 
+                           {"x":2011, "category1":30, "category2":60}]
 ```
 As soon as we save this file, the changes reflect in our app. 
 
