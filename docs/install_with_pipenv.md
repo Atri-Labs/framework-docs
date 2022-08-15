@@ -24,4 +24,4 @@ pipenv install atri
 
 Congratulations! Atri framework has been successfully installed. 
 
-Let us now [start the Atri engine](/docs/start-engine.md). 
+Let us now [start the Atri engine](/start-engine.md). 
