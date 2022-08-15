@@ -28,4 +28,4 @@ Let us now [start the Atri engine](/docs/start-engine.md).
 
 ### Problems?
 
-If you faced any problems during installation or have any other queries, you may join the [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w). 
+If you faced any problems during installation or have any other queries, you may reach out to us through the [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w). 
