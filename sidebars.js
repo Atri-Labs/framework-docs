@@ -41,9 +41,10 @@ const sidebars = {
 					label: "Installation",
 					link: {
 						type: "generated-index",
-					},
+          },
 					collapsed: false,
 					items: [
+            "video-guide",
 						"install_prereqs",
 						"install_with_pipenv",
 						"install_with_conda",
@@ -68,7 +69,8 @@ const sidebars = {
         'publish-app',
         'style-panel',
         'custom-panel',
-        'actions-panel'
+        'actions-panel',
+        'try-tab'
       ],
     },
     {
