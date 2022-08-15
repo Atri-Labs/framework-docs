@@ -3,17 +3,17 @@ title: Create your first app
 description: Tutorial to help you create your first app using Atri framework
 slug: getting-started/create-app
 ---
-Now that we have installed and started the Atri engine, we will create a single page app that contains a bar chart.
+Now that we have installed and started the Atri engine, we will create a very simple app to introduce you to the framework. It is a single page app that contains a bar chart.
 
 ## Creating frontend of the app
 
-Let's to the visual editor started at `http://localhost:4002`. We will create the frontend of our app here. 
+Let us go to the visual editor started at `http://localhost:4002`. We will create the frontend of our app here. 
 
-1. To add the bar chart, click the component picker in the top menu. 
+1. To add the bar chart, click the `Component Picker` icon in the top menu. 
 
-    a. This will open the sub-menu. 
+![alt text](/snapshots/component_picker.png)
 
-    b. Drag-and-drop the bar chart from the sub-menu onto the canvas. 
+This will open the `Component Manager`. Drag-and-drop the bar chart onto the canvas.
 
 2. When we drop the chart onto the canvas, it is selected by default and style panel gets opened. 
 
@@ -49,3 +49,8 @@ at.bar1.custom.y = [10, 20, 30]
 :::tip
 We can use the help of Intellisense provided by our code editor and avoid remembering the API structure.
 :::
+
+# Problems?
+
+Slack
+Documentation

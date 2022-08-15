@@ -7,7 +7,17 @@ Before we get started with the framework, please ensure that you satisfy the fol
 
 ### 1. Python 3.7+
 
-The Atri framework supports Python version 3.7 and above. If you do not have Python installed already, please download its latest version from [python.org](https://www.python.org/downloads/).
+The Atri framework supports Python version 3.7 and above. 
+
+If you do not have Python installed already, please download its latest version from [python.org](https://www.python.org/downloads/).
+
+If you have Python, you can check its version by running the following command in Terminal.
+
+```
+python --version
+```
+
+Depending on your system's configuration, you might write `python3` instead. 
 
 ### 2. Virtual environment manager
 
@@ -19,6 +29,8 @@ If you do not have `pipenv` installed already, please run the following command 
 ```
 pip install --user pipenv
 ```
+
+Depending on your system's configuration, you might write `pip3` instead. 
 
 #### Conda
 
