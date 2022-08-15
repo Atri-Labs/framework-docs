@@ -143,6 +143,15 @@ const sidebars = {
 				"actions-panel",
 			],
 		},
+		{
+			type: "category",
+			label: "Concepts of Python backend",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
+			items: ["api-structure", "intellisense"],
+		},
 	],
 };
 module.exports = sidebars;
