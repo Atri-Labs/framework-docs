@@ -57,21 +57,12 @@ const sidebars = {
 		},
 		{
 			type: "category",
-			label: "Concepts of visual editor",
+			label: "Component Reference",
 			link: {
 				type: "generated-index",
-				description: "Add a labeled picture with names of all icons.",
 			},
 			collapsed: false,
-			items: [
-				"page-manager",
-				"component-manager",
-				"template-manager",
-				"breakpoints",
-				"publish-app",
-				"custom-panel",
-				"actions-panel",
-			],
+			items: ["bar-chart"],
 		},
 		{
 			type: "category",
@@ -133,6 +124,24 @@ const sidebars = {
 				},
 				"guide-publish",
 				"guide-breakpoint",
+			],
+		},
+		{
+			type: "category",
+			label: "Concepts of visual editor",
+			link: {
+				type: "generated-index",
+				description: "Add a labeled picture with names of all icons.",
+			},
+			collapsed: false,
+			items: [
+				"page-manager",
+				"component-manager",
+				"template-manager",
+				"breakpoints",
+				"publish-app",
+				"custom-panel",
+				"actions-panel",
 			],
 		},
 	],
