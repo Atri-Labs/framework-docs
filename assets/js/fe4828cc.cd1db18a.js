@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[2466],{9701:e=>{e.exports=JSON.parse('{"title":"How-to guides","slug":"/category/how-to-guides","permalink":"/category/how-to-guides","navigation":{"previous":{"title":"Bar Chart","permalink":"/comp-reference/bar-chart"},"next":{"title":"Page","permalink":"/category/page"}}}')}}]);
