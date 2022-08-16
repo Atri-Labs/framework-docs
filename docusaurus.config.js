@@ -94,7 +94,7 @@ const config = {
 							},
 							{
 								label: "Slack",
-								href: "https://discordapp.com/invite/docusaurus",
+								href: "https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w",
 							},
 							{
 								label: "Linkedin",
