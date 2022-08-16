@@ -34,7 +34,12 @@ const sidebars = {
 				type: "generated-index",
 			},
 			collapsed: false,
-			items: ["comp-reference/charts/bar-chart"],
+			items: [
+				"comp-reference/charts/bar-chart",
+				"comp-reference/charts/area-chart",
+				"comp-reference/charts/line-chart",
+				"comp-reference/charts/scatter-chart",
+			],
 		},
 		{
 			type: "category",
