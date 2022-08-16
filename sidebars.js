@@ -61,7 +61,7 @@ const sidebars = {
 				type: "generated-index",
 			},
 			collapsed: false,
-			items: ["bar-chart"],
+			items: ["comp-reference/charts/bar-chart"],
 		},
 		{
 			type: "category",

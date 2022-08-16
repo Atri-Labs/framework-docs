@@ -1,7 +1,6 @@
 ---
 title: Bar Chart
 description: Adding custom properties to a component
-slug: comp-reference/bar-chart
 ---
 
 ## Custom properties of bar chart
@@ -29,7 +28,7 @@ at.bar.custom.data = [
         "temperature": 20,
         "rainfall": 15
     }
-]
+    ]
 ```
 
 ### `Bar.custom.stacked`
