@@ -24,7 +24,6 @@ const sidebars = {
 					],
 				},
         "create-app",
-				"start-engine",
 			],
 		},
 		{
@@ -49,6 +48,7 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
+        "start-engine",
 				{
 					type: "category",
 					label: "Page",
