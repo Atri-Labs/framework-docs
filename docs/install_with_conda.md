@@ -58,3 +58,7 @@ Below is a quick review of the sequence of steps we followed in this page.
 ### Next Steps
 
 If you are using the framework for the first time, we strongly recommend you follow the upcoming tutorial to create a simple app. 
+
+### Problems?
+
+If you faced any problems during installation or have any other queries, you may reach out to us in our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w). 
