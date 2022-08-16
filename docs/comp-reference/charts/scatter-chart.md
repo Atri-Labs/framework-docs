@@ -22,45 +22,52 @@ at.scatter.custom.data = [
         { x: 150, "min": 400, "max": 500 },
         { x: 110, "min": 200, "max": 280 },
     ],
+    # set 2 of point
     [
         { x: 200, "min": 260, "max": 300 },
         { x: 240, "min": 290, "max": 350 },
         { x: 190, "min": 290, "max": 350 },
-        { x: 198, "min": 250, "max": 210 },
-        { x: 180, "min": 280, "max": 260 },
-        { x: 210, "min": 220, "max": 230 },
+        { x: 198, "min": 250, "max": 270 },
+        { x: 180, "min": 280, "max": 340 },
+        { x: 210, "min": 220, "max": 280 },
     ]
     ]
 ```
 
 ### `Scatter.custom.options`
 
-Continuing from the previous example, you can select bars to animate when the page loads by setting `Scatter.custom.options`. In this example, we are animating bars for temperature but not for rainfall.
+Continuing from the previous example, you can select set of points to animate when the page loads by setting `Scatter.custom.options`. In this example, we are animating "max" for but not for "min".
 
 ```python
 at.Scatter.custom.options = {
-    "temperature": {
-        "animate": True
-    }
+    [
+        { "max": { "animate": True } }
+    ]
 }
 ```
 
-Similarly, we can set other fields in `Bar.custom.options`. The `order` property allows you to control the sequence in which different bars will be drawn.
+Similarly, we can set other fields in `Scatter.custom.options`.
 
 ```python
 at.Bar.custom.options = {
-    "temperature": {
-        "fill": "red",
-        "stroke": "orange",
-        "order": 0
-    },
-    "rainfall": {
-        "fill": "red",
-        "stroke": "orange",
-        "order": 1
-    }
+    [
+        {
+            "name": "min"
+            "fill": "red",
+            "stroke": "orange",
+            "shape": "circle"
+        },
+        {
+            "name": "max"
+            "fill": "red",
+            "stroke": "orange",
+            "shape": "cross"
+        }
+    ]
 }
 ```
+
+The available values for `shape` option are 'circle', 'cross', 'diamond', 'square', 'star', 'triangle', 'wye'.
 
 ## Styling properties for bar chart
 
