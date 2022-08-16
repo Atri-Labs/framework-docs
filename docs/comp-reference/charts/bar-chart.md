@@ -64,6 +64,6 @@ at.Bar.custom.options = {
 }
 ```
 
-### `Bar.styles`
+## Styling properties for bar chart
 
 Same as other components with some fields removed as deemed not applicable for charts.
