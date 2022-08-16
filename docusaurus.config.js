@@ -134,7 +134,7 @@ const config = {
 				  container: '#zoom-container',
 				  template: '#zoom-template',
 				},
-			  },
+			},
 		}),
 	plugins:
 	['plugin-image-zoom'],
