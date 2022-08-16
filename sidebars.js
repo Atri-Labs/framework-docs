@@ -23,8 +23,8 @@ const sidebars = {
 						"install_with_conda",
 					],
 				},
+        "create-app",
 				"start-engine",
-				"create-app",
 			],
 		},
 		{
