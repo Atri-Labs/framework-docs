@@ -48,9 +48,9 @@ Congratulations! Atri framework is now ready to use. The visual editor is now av
 
 ### Summary 
 
-Below is a quick review of the sequence of steps we followed in this page. 
+Below is a quick review of the steps we followed to install and run Atri engine using pipenv. 
 
-![New project using pipenv](/snapshots/new_proj_pipenv.png)
+![New project using pipenv](/snapshots/new_proj_pipenv.jpeg)
 
 ### Next Steps
 
