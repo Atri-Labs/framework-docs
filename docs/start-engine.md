@@ -1,7 +1,7 @@
 ---
-title: Start Atri engine
-description: How to start using Atri framework
-slug: getting-started/start-engine
+title: Development flow for an existing project
+description: How to continue using Atri framework
+slug: getting-started/existing-project
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
