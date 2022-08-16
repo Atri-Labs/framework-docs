@@ -45,8 +45,4 @@ At the start of a new project, you will be asked to select the virtual environme
 The visual editor is now available at `http://localhost:4002`. If the editor doesn't open automatically, please manually open `http://localhost:4002` in the browser.
 :::
 
-Congratulations! Atri framework is now ready to use. 
-
-### Next Steps
-
-If you are using the framework for the first time, we strongly recommend you follow the upcoming tutorial to create a simple app. 
+### Exit pipenv
