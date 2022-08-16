@@ -3,6 +3,9 @@ title: Create your first app
 description: Tutorial to help you create your first app using Atri framework
 slug: getting-started/create-app
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Now that we have installed and started the Atri engine, we will create a very simple app - a single page app that contains a bar chart - to get a quick introduction to the framework.
 
 ## Creating frontend of the app
@@ -43,11 +46,29 @@ We can make changes to any component in the app through the file at `controllers
 
 1. Since this is a historical time series, it is static data and it will not change. Hence, we will provide this dataset in the `init_state()`.
 
+<Tabs>
+<TabItem value="controllers/routes/main.py" label="controllers/routes/main.py" default>
+
 ```python
+from .atri import Atri
+from fastapi import Request, Response
+
 def init_state(at: Atri):
+    # highlight-start
     at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50}, 
                            {"x":2011, "category1":30, "category2":60}]
+    # highlight-end
+
+def handle_page_request(at: Atri, req: Request, res: Response):
+    pass
+
+def handle_event(at: Atri, req: Request, res: Response):
+    pass
 ```
+
+</TabItem>
+</Tabs>
+
 As soon as we save this file, the changes reflect in our app. 
 
 :::success Congratulations!
