@@ -57,7 +57,7 @@ Below is a quick review of the sequence of steps we followed in this page.
 
 ### Next Steps
 
-If you are using the framework for the first time, we strongly recommend you follow the upcoming tutorial to create a simple app. 
+If you are using the framework for the first time, we strongly recommend you follow the upcoming [tutorial to create a simple app](/create-app.md). 
 
 ### Problems?
 
