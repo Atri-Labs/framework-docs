@@ -21,7 +21,8 @@ def handle_event(at: Atri, req: Request, res: Response):
             # check if user has uploaded one or more files
             if len(files) > 0:
                 # grab the first file
-                file = files[0].file
+                # Note: files[0].file is a fastapi.UploadFile object
+                file = files[0].file.file
                 # read the bytes in file
                 data = file.read()
                 # optional - convert bytes into utf-8 format
@@ -48,7 +49,7 @@ def handle_event(at: Atri, req: Request, res: Response):
             # here is the difference, we are looping over all files
             for i, file in enumerate(files):
                 # read the bytes in file
-                data = file.read()
+                data = file.file.read()
                 # optional - convert bytes into utf-8 format
                 data_utf8 = data.decode()
                 # process data as you process bytes in python ...
