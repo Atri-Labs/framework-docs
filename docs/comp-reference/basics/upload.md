@@ -17,7 +17,7 @@ def handle_event(at: Atri, req: Request, res: Response):
     if at.upload1.onChange:
         # sanity check if user has successfully uploaded a file
         if at.upload1.io.files != None:
-            files = t.Upload1.io.files
+            files = at.upload1.io.files
             # check if user has uploaded one or more files
             if len(files) > 0:
                 # grab the first file
@@ -44,7 +44,7 @@ def handle_event(at: Atri, req: Request, res: Response):
     if at.upload1.onChange:
         # sanity check if user has successfully uploaded a file
         if at.upload1.io.files != None:
-            files = t.Upload1.io.files
+            files = at.upload1.io.files
             # here is the difference, we are looping over all files
             for i, file in enumerate(files):
                 # read the bytes in file
