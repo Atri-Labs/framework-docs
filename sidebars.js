@@ -23,7 +23,7 @@ const sidebars = {
 						"install_with_conda",
 					],
 				},
-        "create-app",
+				"create-app",
 			],
 		},
 		{
@@ -38,6 +38,7 @@ const sidebars = {
 				"comp-reference/charts/area-chart",
 				"comp-reference/charts/line-chart",
 				"comp-reference/charts/scatter-chart",
+				"comp-reference/basics/upload",
 			],
 		},
 		{
@@ -48,7 +49,7 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
-        "start-engine",
+				"start-engine",
 				{
 					type: "category",
 					label: "Page",
