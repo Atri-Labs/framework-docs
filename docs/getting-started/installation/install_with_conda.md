@@ -50,7 +50,7 @@ Congratulations! Atri framework is now ready to use. The visual editor is now av
 
 ### Summary 
 
-Below is a quick review of the sequence of steps we followed in this page. 
+Below is a quick review of the steps we followed to install and run Atri engine using conda. 
 
 ![New project using conda](/snapshots/new_proj_conda.png)
 
