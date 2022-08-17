@@ -7,6 +7,11 @@ import TabItem from '@theme/TabItem';
 
 Now that we have installed and started the Atri engine, we will create a very simple app - a single page app that contains a bar chart - to get a quick introduction to the framework.
 
+## Video tutorial
+
+You may follow the video tutorial or skip to the documentation below.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cNCUVF9o8oY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Creating frontend of the app
 
 Let us go to the visual editor started at `http://localhost:4002`. We will create the frontend of our app here.
