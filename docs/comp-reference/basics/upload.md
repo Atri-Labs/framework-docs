@@ -21,8 +21,12 @@ def handle_event(at: Atri, req: Request, res: Response):
             # check if user has uploaded one or more files
             if len(files) > 0:
                 # grab the first file
-                # Note: files[0].file is a fastapi.UploadFile object
-                file = files[0].file.file
+                # Note: files[0].file is a starlette.UploadFile object
+                # It has some information like content_type that can be used
+                # to identify the type of file.
+                uploadFile = files[0].file
+                # get the python's BinaryIO file from starlette.UploadFile
+                binaryFile = uploadFile.file
                 # read the bytes in file
                 data = file.read()
                 # optional - convert bytes into utf-8 format
@@ -47,9 +51,11 @@ def handle_event(at: Atri, req: Request, res: Response):
         if at.upload1.io.files != None:
             files = at.upload1.io.files
             # here is the difference, we are looping over all files
-            for i, file in enumerate(files):
+            for i, uploadFile in enumerate(files):
+                # get the python's BinaryIO file from starlette.UploadFile
+                binaryFile = uploadFile.file
                 # read the bytes in file
-                data = file.file.read()
+                data = binaryFile.read()
                 # optional - convert bytes into utf-8 format
                 data_utf8 = data.decode()
                 # process data as you process bytes in python ...
