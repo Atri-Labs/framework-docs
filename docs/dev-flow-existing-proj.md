@@ -5,7 +5,7 @@ description: How to continue using Atri framework
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Once you have installed `atri` CLI, everytime you return to work on an existing project (or are working on a new project), you always begin by following the instructions in this page.  
+Everytime you return to work on an existing project, make sure you follow the instructions in this page.  
 
 ### 1. Activate virtual environment
 
@@ -38,10 +38,45 @@ Once the the virtual environment is activated, please run the following command 
 atri start
 ```
 
-At the start of a new project, you will be asked to select the virtual environment you are using. 
-
 :::info
-The visual editor is now available at `http://localhost:4002`. If the editor doesn't open automatically, please manually open `http://localhost:4002` in the browser.
+The visual editor is now available at `http://localhost:4002`.
 :::
 
-### Exit pipenv
+### Summary 
+
+Below is a quick review of the steps we followed.
+
+<Tabs>
+<TabItem value="pipenv" label="pipenv" default>
+
+![existing project pipenv](/snapshots/existing_proj_pipenv.png)
+
+</TabItem>
+<TabItem value="conda" label="conda">
+
+![existing project conda](/snapshots/existing_proj_conda.png)
+
+</TabItem>
+</Tabs>
+
+
+### Deactivate virtual environment at the end of a development session
+
+After each development session, make sure you deactivate your virtual environment. 
+
+<Tabs>
+<TabItem value="pipenv" label="pipenv" default>
+
+```
+exit
+```
+
+</TabItem>
+<TabItem value="conda" label="conda">
+
+```
+conda deactivate
+```
+
+</TabItem>
+</Tabs>
