@@ -24,7 +24,7 @@ def handle_event(at: Atri, req: Request, res: Response):
                 # Note: files[0].file is a starlette.UploadFile object
                 # It has some information like content_type that can be used
                 # to identify the type of file.
-                uploadFile = files[0].file
+                uploadFile = files[0]
                 # get the python's BinaryIO file from starlette.UploadFile
                 binaryFile = uploadFile.file
                 # read the bytes in file
