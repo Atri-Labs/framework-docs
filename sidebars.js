@@ -41,9 +41,7 @@ const sidebars = {
 						type: "generated-index",
 					},
 					collapsed: false,
-					items: [
-						"comp-reference/basics/upload",
-					],
+					items: ["comp-reference/basics/upload"],
 				},
 				{
 					type: "category",
@@ -57,6 +55,7 @@ const sidebars = {
 						"comp-reference/charts/bar-chart",
 						"comp-reference/charts/line-chart",
 						"comp-reference/charts/scatter-chart",
+						"comp-reference/charts/histogram-chart",
 					],
 				},
 			],
@@ -100,8 +99,9 @@ const sidebars = {
 					},
 					collapsed: true,
 					items: [
-						"guides-frontend/template/add-template", 
-						"guides-frontend/template/use-template"],
+						"guides-frontend/template/add-template",
+						"guides-frontend/template/use-template",
+					],
 				},
 				{
 					type: "category",
@@ -111,8 +111,9 @@ const sidebars = {
 					},
 					collapsed: true,
 					items: [
-						"guides-frontend/asset/add-bkg-img", 
-						"guides-frontend/asset/add-static-asset"],
+						"guides-frontend/asset/add-bkg-img",
+						"guides-frontend/asset/add-static-asset",
+					],
 				},
 				{
 					type: "category",
@@ -122,8 +123,9 @@ const sidebars = {
 					},
 					collapsed: true,
 					items: [
-						"guides-frontend/deploy-app/deploy-using-docker", 
-						"guides-frontend/deploy-app/deploy-manual"],
+						"guides-frontend/deploy-app/deploy-using-docker",
+						"guides-frontend/deploy-app/deploy-manual",
+					],
 				},
 				"guides-frontend/guide-publish",
 				"guides-frontend/guide-breakpoint",
@@ -155,8 +157,9 @@ const sidebars = {
 			},
 			collapsed: true,
 			items: [
-				"concepts-backend/api-structure", 
-				"concepts-backend/intellisense"],
+				"concepts-backend/api-structure",
+				"concepts-backend/intellisense",
+			],
 		},
 	],
 };
