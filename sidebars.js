@@ -57,6 +57,7 @@ const sidebars = {
 						"comp-reference/charts/scatter-chart",
 						"comp-reference/charts/histogram-chart",
 						"comp-reference/charts/pie-chart",
+						"comp-reference/charts/candlestick-chart",
 					],
 				},
 			],
