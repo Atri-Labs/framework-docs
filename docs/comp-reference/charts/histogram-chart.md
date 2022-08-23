@@ -5,7 +5,7 @@ description: Adding custom properties to a component
 
 ## Custom properties of histogram chart
 
-All the custom properties of bar chart must be accessed using `Histogram.custom`. It's actually a composite chart with bars and lines that can be controlled via the fields available in `Histogram.custom`.
+All the custom properties of histogram chart must be accessed using `Histogram.custom`. It's actually a composite chart with bars and lines that can be controlled via the fields available in `Histogram.custom`.
 
 ### `Histogram.custom.data`
 
