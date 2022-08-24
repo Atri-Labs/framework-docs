@@ -12,7 +12,7 @@ All the custom properties of histogram chart must be accessed using `Histogram.c
 Histogram takes `x` & `y` values as shown below.
 
 ```python
-at.Histogram.custom.data = {
+at.Histogram.custom.data = [
     {
         "x": 0,
         "y": 4000,
@@ -29,7 +29,7 @@ at.Histogram.custom.data = {
         "x": 3,
         "y": 2780,
     },
-}
+]
 ```
 
 ### `Histogram.custom.xAxis` & `Histogram.custom.yAxis`
