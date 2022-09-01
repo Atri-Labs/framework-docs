@@ -32,7 +32,7 @@ const sidebars = {
 			link: {
 				type: "generated-index",
 			},
-			collapsed: false,
+			collapsed: true,
 			items: [
 				{
 					type: "category",
@@ -40,7 +40,7 @@ const sidebars = {
 					link: {
 						type: "generated-index",
 					},
-					collapsed: false,
+					collapsed: true,
 					items: ["comp-reference/basics/upload"],
 				},
 				{
@@ -49,7 +49,7 @@ const sidebars = {
 					link: {
 						type: "generated-index",
 					},
-					collapsed: false,
+					collapsed: true,
 					items: [
 						"comp-reference/charts/area-chart",
 						"comp-reference/charts/bar-chart",
@@ -65,11 +65,20 @@ const sidebars = {
 		"dev-flow-existing-proj",
 		{
 			type: "category",
+			label: "How-to guides [backend]",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: true,
+			items: ["guides-backend/navigate"],
+		},
+		{
+			type: "category",
 			label: "How-to guides [frontend]",
 			link: {
 				type: "generated-index",
 			},
-			collapsed: false,
+			collapsed: true,
 			items: [
 				{
 					type: "category",
