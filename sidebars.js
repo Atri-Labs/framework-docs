@@ -172,6 +172,7 @@ const sidebars = {
 				"concepts-backend/intellisense",
 			],
 		},
+		"update-atri",
 	],
 };
 module.exports = sidebars;
