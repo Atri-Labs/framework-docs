@@ -70,7 +70,10 @@ const sidebars = {
 				type: "generated-index",
 			},
 			collapsed: true,
-			items: ["guides-backend/navigate"],
+			items: [
+				"guides-backend/navigate",
+				"guides-backend/send-image-from-backend"
+			],
 		},
 		{
 			type: "category",
@@ -124,6 +127,7 @@ const sidebars = {
 					items: [
 						"guides-frontend/asset/add-bkg-img",
 						"guides-frontend/asset/add-static-asset",
+						"guides-frontend/asset/add-font"
 					],
 				},
 				{
