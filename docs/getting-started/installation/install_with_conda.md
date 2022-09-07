@@ -8,7 +8,7 @@ If you are using `pipenv` virtual environment, you should skip this page.
 
 Create an empty directory anywhere in your repository. It will later contain all the files for your app. In this example, we are creating a directory called `my_app`. You can choose any name for this directory.
 
-```
+```bash
 mkdir my_app
 ```
 
@@ -16,7 +16,7 @@ mkdir my_app
 
 Run the following command to create an environment. In this example, we are creating a conda environment called `my_env`. You can choose any name for this environment.
 
-```
+```bash
 cd my_app
 conda create -y -n my_env python
 ```
@@ -25,7 +25,7 @@ conda create -y -n my_env python
 
 Run the following commands to activate the environment and install `atri` CLI. Replace `my_env` with your own environment name that you created using `conda create ...` command in previous step.
 
-```
+```bash
 conda activate my_env
 pip install atri
 ```
@@ -38,7 +38,7 @@ Congratulations! Atri framework has been successfully installed.
 
 Let us check if the installation worked and start the engine by running the following command. 
 
-```
+```bash
 atri start
 ```
 
