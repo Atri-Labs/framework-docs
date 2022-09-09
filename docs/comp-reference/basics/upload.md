@@ -61,3 +61,6 @@ def handle_event(at: Atri, req: Request, res: Response):
                 # process data as you process bytes in python ...
                 # process data_utf8 as you process strings in python ...
 ```
+:::info
+If you want to use the Image uploaded using the upload button use our [create_media_function](https://docs.utils.atrilabs.com/image-utils/create-media-response) for convenient processing/creating your backend.
+:::info

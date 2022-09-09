@@ -5,12 +5,24 @@ slug: /update-atri
 
 ## Steps
 
-```shell
+Update atri package using pipenv:
+
+```
 cd project_dir
 
 pipenv shell
-# or
-conda activate
+
+pipenv update atri
+```
+
+Update atri package using conda:
+
+```
+cd project_dir
+
+conda activate env
+
+pip install atri -U
 ```
 
 Currently, the below process is manual, and soon these steps will be automated.
