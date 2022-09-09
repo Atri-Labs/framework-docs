@@ -58,6 +58,7 @@ const sidebars = {
 						"comp-reference/charts/histogram-chart",
 						"comp-reference/charts/pie-chart",
 						"comp-reference/charts/candlestick-chart",
+						"comp-reference/data/table",
 					],
 				},
 			],
@@ -126,18 +127,6 @@ const sidebars = {
 						"guides-frontend/asset/add-static-asset",
 					],
 				},
-				{
-					type: "category",
-					label: "Deploy app",
-					link: {
-						type: "generated-index",
-					},
-					collapsed: true,
-					items: [
-						"guides-frontend/deploy-app/deploy-using-docker",
-						"guides-frontend/deploy-app/deploy-manual",
-					],
-				},
 				"guides-frontend/guide-publish",
 				"guides-frontend/guide-breakpoint",
 			],
@@ -170,6 +159,18 @@ const sidebars = {
 			items: [
 				"concepts-backend/api-structure",
 				"concepts-backend/intellisense",
+			],
+		},
+		{
+			type: "category",
+			label: "Deploy app",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: true,
+			items: [
+				"guides-frontend/deploy-app/deploy-using-docker",
+				"guides-frontend/deploy-app/deploy-manual",
 			],
 		},
 		"update-atri",
