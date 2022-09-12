@@ -176,7 +176,6 @@ const sidebars = {
 			label: "Concepts of visual editor",
 			link: {
 				type: "generated-index",
-				description: "Add a labeled picture with names of all icons.",
 			},
 			collapsed: true,
 			items: [
