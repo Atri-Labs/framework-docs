@@ -1,5 +1,5 @@
 ---
-title: Development flow for an existing project
+title: Development flow
 description: How to continue using Atri framework
 ---
 import Tabs from '@theme/Tabs';

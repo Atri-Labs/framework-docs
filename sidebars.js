@@ -63,7 +63,18 @@ const sidebars = {
 				},
 			],
 		},
-		"dev-flow-existing-proj",
+		{
+			type: "category",
+			label: "Existing Project",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: true,
+			items: [
+				"existing-project/dev-flow-existing-proj",
+				"existing-project/update-atri"
+			],
+		},
 		{
 			type: "category",
 			label: "How-to guides [backend]",
@@ -177,7 +188,6 @@ const sidebars = {
 				"guides-frontend/deploy-app/deploy-manual",
 			],
 		},
-		"update-atri",
 	],
 };
 module.exports = sidebars;
