@@ -188,6 +188,19 @@ const sidebars = {
 				"guides-frontend/deploy-app/deploy-manual",
 			],
 		},
+		{
+			type: "category",
+			label: "Backend utilities",
+			link: {
+				type: "generated-index",
+				description: 
+				"Utility functions to make backend development easy",
+			},
+			collapsed: true,
+			items: [
+				"utilities/media-response",
+			],
+		},
 	],
 };
 module.exports = sidebars;
