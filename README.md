@@ -9,13 +9,9 @@ This is the home to the documentation of Atri engine and its surrounding ecosyst
 
 # How to contribute?
 
-1. Create a fork of this repository. 
+1. Create a [fork of this repository] (https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).. 
 
-You may refer [GitHub's step-by-step guide about forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
-
-2. Clone your fork. 
-
-You may refer [GitHub's step-by-step guide about cloning a fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork).
+2. [Clone your fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork). 
 
 ```shell
 # Clone your fork of the repo into the current directory
@@ -33,31 +29,29 @@ git remote add upstream https://github.com/Atri-Labs/framework-docs.git
 ```
 
 4. Install `yarn`. 
-```
+```shell
 $ yarn
 ```
 
 5. Start local development. 
 
-```
+```shell
 $ yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-6. Opening a Pull Request (PR)
+6. Build the site
 
-a. Before opening a Pull Request (PR), build the site to ensure there are no issues in your code. 
+Before opening a Pull Request (PR), build the site to ensure there are no issues in your code. 
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command generates static content into the `build` directory and can be served using any static content hosting service.
 
-b. Create a PR with clear title and description.
-
-You may refer to [GitHub's step-by-step guide about creating a Pull Request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+7. Open a [Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) with clear title and description.
 
 # References
 - This documentation follows [Diátaxis framework for technical writing](https://diataxis.fr/). 
