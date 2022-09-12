@@ -6,7 +6,7 @@ description: How to install Atri Framework when you are using pipenv virtual env
 
 Create an empty directory anywhere in your repository. It will later contain all the files for your app. In this example, we are creating a directory called `my_app`. You can choose any name for this directory.
 
-```
+```bash
 mkdir my_app
 ```
 
@@ -14,7 +14,7 @@ mkdir my_app
 
 From inside the project directory, `my_app` in this example, run the following command:
 
-```
+```bash
 cd my_app
 pipenv install atri
 ```
@@ -27,7 +27,7 @@ Congratulations! Atri framework has been successfully installed.
 
 From your project root directory, activate the virtual environment. 
 
-```
+```bash
 pipenv shell
 ```
 
@@ -35,7 +35,7 @@ pipenv shell
 
 Let us check if the installation worked and start the engine by running the following command. 
 
-```
+```bash
 atri start
 ```
 

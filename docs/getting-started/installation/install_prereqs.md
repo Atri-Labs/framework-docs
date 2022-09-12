@@ -12,7 +12,7 @@ If you do not have Python installed already, please download its latest version 
 
 If you have Python, you can check its version by running the following command in Terminal.
 
-```
+```bash
 python --version
 ```
 
@@ -25,7 +25,7 @@ We enforce best practices for app development. Hence, `atri` Command Line Interf
 #### Pipenv (preferred)
 If you do not have `pipenv` installed already, please run the following command in the terminal. 
 
-```
+```bash
 pip install --user pipenv
 ```
 
