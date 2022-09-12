@@ -28,6 +28,30 @@ const sidebars = {
 		},
 		{
 			type: "category",
+			label: "Existing Project",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: true,
+			items: [
+				"existing-project/dev-flow-existing-proj",
+				"existing-project/update-atri"
+			],
+		},
+		{
+			type: "category",
+			label: "Deploy app",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
+			items: [
+				"guides-frontend/deploy-app/deploy-using-docker",
+				"guides-frontend/deploy-app/deploy-manual",
+			],
+		},
+		{
+			type: "category",
 			label: "Component Reference",
 			link: {
 				type: "generated-index",
@@ -61,18 +85,6 @@ const sidebars = {
 						"comp-reference/data/table",
 					],
 				},
-			],
-		},
-		{
-			type: "category",
-			label: "Existing Project",
-			link: {
-				type: "generated-index",
-			},
-			collapsed: true,
-			items: [
-				"existing-project/dev-flow-existing-proj",
-				"existing-project/update-atri"
 			],
 		},
 		{
@@ -144,18 +156,6 @@ const sidebars = {
 			items: [
 				"guides-backend/navigate",
 				"guides-backend/send-image-from-backend"
-			],
-		},
-		{
-			type: "category",
-			label: "Deploy app",
-			link: {
-				type: "generated-index",
-			},
-			collapsed: false,
-			items: [
-				"guides-frontend/deploy-app/deploy-using-docker",
-				"guides-frontend/deploy-app/deploy-manual",
 			],
 		},
 		{
