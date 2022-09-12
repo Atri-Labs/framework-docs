@@ -11,7 +11,7 @@ This is the home to the documentation of Atri engine and its surrounding ecosyst
 
 1. Create a [fork of this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). 
 
-2. [Clone your fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork). 
+2. [Clone](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork) your fork. 
 
 ```shell
 # Clone your fork of the repo into the current directory
