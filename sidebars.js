@@ -168,7 +168,31 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
-				"utilities/media-response",
+				{
+					type: "category",
+					label: "Chart",
+					link: {
+						type: "generated-index",
+					},
+					collapsed: false,
+					items: [
+						"utilities/chart-data-utils/draw-chart",
+					],
+				},
+				{
+					type: "category",
+					label: "Image",
+					link: {
+						type: "generated-index",
+					},
+					collapsed: false,
+					items: [
+						"utilities/image-utils/create-media-response",
+						"utilities/image-utils/parse-uploaded-file",
+						"utilities/image-utils/change-background",
+						"utilities/image-utils/remove-background",
+					],
+				},
 			],
 		},
 		{
