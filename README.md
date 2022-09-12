@@ -9,7 +9,7 @@ This is the home to the documentation of Atri engine and its surrounding ecosyst
 
 # How to contribute?
 
-1. Create a [fork of this repository] (https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).. 
+1. Create a [fork of this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). 
 
 2. [Clone your fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork). 
 
