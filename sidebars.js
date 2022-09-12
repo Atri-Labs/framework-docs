@@ -77,18 +77,6 @@ const sidebars = {
 		},
 		{
 			type: "category",
-			label: "Backend guides",
-			link: {
-				type: "generated-index",
-			},
-			collapsed: false,
-			items: [
-				"guides-backend/navigate",
-				"guides-backend/send-image-from-backend"
-			],
-		},
-		{
-			type: "category",
 			label: "Frontend guides",
 			link: {
 				type: "generated-index",
@@ -148,10 +136,46 @@ const sidebars = {
 		},
 		{
 			type: "category",
+			label: "Backend guides",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
+			items: [
+				"guides-backend/navigate",
+				"guides-backend/send-image-from-backend"
+			],
+		},
+		{
+			type: "category",
+			label: "Deploy app",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
+			items: [
+				"guides-frontend/deploy-app/deploy-using-docker",
+				"guides-frontend/deploy-app/deploy-manual",
+			],
+		},
+		{
+			type: "category",
+			label: "Backend utilities",
+			link: {
+				type: "generated-index",
+				description: 
+				"Utility functions to make backend development easy",
+			},
+			collapsed: false,
+			items: [
+				"utilities/media-response",
+			],
+		},
+		{
+			type: "category",
 			label: "Concepts of visual editor",
 			link: {
 				type: "generated-index",
-				description: "Add a labeled picture with names of all icons.",
 			},
 			collapsed: true,
 			items: [
@@ -174,18 +198,6 @@ const sidebars = {
 			items: [
 				"concepts-backend/api-structure",
 				"concepts-backend/intellisense",
-			],
-		},
-		{
-			type: "category",
-			label: "Deploy app",
-			link: {
-				type: "generated-index",
-			},
-			collapsed: true,
-			items: [
-				"guides-frontend/deploy-app/deploy-using-docker",
-				"guides-frontend/deploy-app/deploy-manual",
 			],
 		},
 	],

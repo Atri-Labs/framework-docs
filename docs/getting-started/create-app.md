@@ -87,5 +87,5 @@ Here are a few immediate next steps to consider:
 
 -   Create your [portfolio](https://atrilabs.com) to showcase your data science, machine learning or web development skills to the world.
 -   Join our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w) to ask questions, share your projects and get inspired.
--   Refer the [guides](/category/how-to-guides-frontend) to get answers to frequently asked questions.
+-   Refer the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
 -   Learn concepts of the [visual editor](/category/concepts-of-visual-editor) and [Python backend](/category/concepts-of-python-backend).
