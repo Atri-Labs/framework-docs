@@ -32,7 +32,7 @@ const sidebars = {
 			link: {
 				type: "generated-index",
 			},
-			collapsed: true,
+			collapsed: false,
 			items: [
 				{
 					type: "category",
@@ -40,7 +40,7 @@ const sidebars = {
 					link: {
 						type: "generated-index",
 					},
-					collapsed: true,
+					collapsed: false,
 					items: ["comp-reference/basics/upload"],
 				},
 				{
@@ -49,7 +49,7 @@ const sidebars = {
 					link: {
 						type: "generated-index",
 					},
-					collapsed: true,
+					collapsed: false,
 					items: [
 						"comp-reference/charts/area-chart",
 						"comp-reference/charts/bar-chart",
@@ -63,14 +63,25 @@ const sidebars = {
 				},
 			],
 		},
-		"dev-flow-existing-proj",
 		{
 			type: "category",
-			label: "How-to guides [backend]",
+			label: "Existing Project",
 			link: {
 				type: "generated-index",
 			},
 			collapsed: true,
+			items: [
+				"existing-project/dev-flow-existing-proj",
+				"existing-project/update-atri"
+			],
+		},
+		{
+			type: "category",
+			label: "Backend guides",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
 			items: [
 				"guides-backend/navigate",
 				"guides-backend/send-image-from-backend"
@@ -78,11 +89,11 @@ const sidebars = {
 		},
 		{
 			type: "category",
-			label: "How-to guides [frontend]",
+			label: "Frontend guides",
 			link: {
 				type: "generated-index",
 			},
-			collapsed: true,
+			collapsed: false,
 			items: [
 				{
 					type: "category",
@@ -177,7 +188,6 @@ const sidebars = {
 				"guides-frontend/deploy-app/deploy-manual",
 			],
 		},
-		"update-atri",
 	],
 };
 module.exports = sidebars;
