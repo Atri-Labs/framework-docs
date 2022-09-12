@@ -9,11 +9,11 @@ This is the home to the documentation of Atri engine and its surrounding ecosyst
 
 # How to contribute?
 
-### 1. Create a fork of this repository. 
+1. Create a fork of this repository. 
 
 You may refer [GitHub's step-by-step guide about forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
 
-### 2. Clone your fork. 
+2. Clone your fork. 
 
 You may refer [GitHub's step-by-step guide about cloning a fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork).
 
@@ -22,8 +22,9 @@ You may refer [GitHub's step-by-step guide about cloning a fork](https://docs.gi
 git clone https://github.com/<your-username>/framework-docs.git
 ```
 
-### 3. Configure the remotes. 
+3. Configure the remotes. 
 
+```shell
 # Navigate to the newly cloned directory
 cd framework-docs
 
@@ -31,12 +32,12 @@ cd framework-docs
 git remote add upstream https://github.com/Atri-Labs/framework-docs.git
 ```
 
-### 4. Install `yarn`. 
+4. Install `yarn`. 
 ```
 $ yarn
 ```
 
-### 5. Start local development. 
+5. Start local development. 
 
 ```
 $ yarn start
@@ -44,7 +45,7 @@ $ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### 6. Opening a Pull Request (PR)
+6. Opening a Pull Request (PR)
 
 a. Before opening a Pull Request (PR), build the site to ensure there are no issues in your code. 
 
