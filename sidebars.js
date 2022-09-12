@@ -32,7 +32,7 @@ const sidebars = {
 			link: {
 				type: "generated-index",
 			},
-			collapsed: false,
+			collapsed: true,
 			items: [
 				{
 					type: "category",
@@ -40,10 +40,8 @@ const sidebars = {
 					link: {
 						type: "generated-index",
 					},
-					collapsed: false,
-					items: [
-						"comp-reference/basics/upload",
-					],
+					collapsed: true,
+					items: ["comp-reference/basics/upload"],
 				},
 				{
 					type: "category",
@@ -51,12 +49,16 @@ const sidebars = {
 					link: {
 						type: "generated-index",
 					},
-					collapsed: false,
+					collapsed: true,
 					items: [
 						"comp-reference/charts/area-chart",
 						"comp-reference/charts/bar-chart",
 						"comp-reference/charts/line-chart",
 						"comp-reference/charts/scatter-chart",
+						"comp-reference/charts/histogram-chart",
+						"comp-reference/charts/pie-chart",
+						"comp-reference/charts/candlestick-chart",
+						"comp-reference/data/table",
 					],
 				},
 			],
@@ -64,11 +66,23 @@ const sidebars = {
 		"dev-flow-existing-proj",
 		{
 			type: "category",
+			label: "How-to guides [backend]",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: true,
+			items: [
+				"guides-backend/navigate",
+				"guides-backend/send-image-from-backend"
+			],
+		},
+		{
+			type: "category",
 			label: "How-to guides [frontend]",
 			link: {
 				type: "generated-index",
 			},
-			collapsed: false,
+			collapsed: true,
 			items: [
 				{
 					type: "category",
@@ -100,8 +114,9 @@ const sidebars = {
 					},
 					collapsed: true,
 					items: [
-						"guides-frontend/template/add-template", 
-						"guides-frontend/template/use-template"],
+						"guides-frontend/template/add-template",
+						"guides-frontend/template/use-template",
+					],
 				},
 				{
 					type: "category",
@@ -111,19 +126,10 @@ const sidebars = {
 					},
 					collapsed: true,
 					items: [
-						"guides-frontend/asset/add-bkg-img", 
-						"guides-frontend/asset/add-static-asset"],
-				},
-				{
-					type: "category",
-					label: "Deploy app",
-					link: {
-						type: "generated-index",
-					},
-					collapsed: true,
-					items: [
-						"guides-frontend/deploy-app/deploy-using-docker", 
-						"guides-frontend/deploy-app/deploy-manual"],
+						"guides-frontend/asset/add-bkg-img",
+						"guides-frontend/asset/add-static-asset",
+						"guides-frontend/asset/add-font"
+					],
 				},
 				"guides-frontend/guide-publish",
 				"guides-frontend/guide-breakpoint",
@@ -155,9 +161,23 @@ const sidebars = {
 			},
 			collapsed: true,
 			items: [
-				"concepts-backend/api-structure", 
-				"concepts-backend/intellisense"],
+				"concepts-backend/api-structure",
+				"concepts-backend/intellisense",
+			],
 		},
+		{
+			type: "category",
+			label: "Deploy app",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: true,
+			items: [
+				"guides-frontend/deploy-app/deploy-using-docker",
+				"guides-frontend/deploy-app/deploy-manual",
+			],
+		},
+		"update-atri",
 	],
 };
 module.exports = sidebars;
