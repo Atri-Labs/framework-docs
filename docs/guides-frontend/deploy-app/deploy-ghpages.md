@@ -21,8 +21,8 @@ You have to specifiy your GitHub repository details such as organization name in
 		"/app-assets": "../assets"
 	},
 	// highlight-start
-	"organizationName": "Atri-Apps",
-	"projectName": "personal_blog"
+	"organizationName": "<your-organization-name>",
+	"projectName": "<your-repo-name>"
 	// highlight-end
 }
 ```
