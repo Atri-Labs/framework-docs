@@ -46,9 +46,9 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
-				"guides-frontend/deploy-app/deploy-using-docker",
-				"guides-frontend/deploy-app/deploy-manual",
-				"guides-frontend/deploy-app/deploy-ghpages",
+				"deploy-app/deploy-using-docker",
+				"deploy-app/deploy-manual",
+				"deploy-app/deploy-ghpages",
 			],
 		},
 		{

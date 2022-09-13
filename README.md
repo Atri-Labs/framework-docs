@@ -7,7 +7,7 @@ This is the home to the documentation of Atri engine and its surrounding ecosyst
 - Reference: API reference of frontend components available in visual editor and how to interact with them from backend
 - Concepts: Concepts of visual editor and backend 
 
-# How to contribute?
+## How to contribute?
 
 1. Create a [fork of this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). 
 
@@ -53,6 +53,6 @@ This command generates static content into the `build` directory and can be serv
 
 7. Open a [Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) with clear title and description.
 
-# References
+## References
 - This documentation follows [Diátaxis framework for technical writing](https://diataxis.fr/). 
 - This documentation website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
