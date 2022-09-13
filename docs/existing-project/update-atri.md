@@ -56,7 +56,7 @@ pip install atri -U
 Currently, the below process is manual, and soon these steps will be automated.
 
 ```shell
-cd project_dir
+cd my_app
 
 rm -rf atri_app
 

@@ -35,7 +35,7 @@ const sidebars = {
 			collapsed: true,
 			items: [
 				"existing-project/dev-flow-existing-proj",
-				"existing-project/update-atri"
+				"existing-project/update-atri",
 			],
 		},
 		{
@@ -46,8 +46,9 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
-				"guides-frontend/deploy-app/deploy-using-docker",
-				"guides-frontend/deploy-app/deploy-manual",
+				"deploy-app/deploy-using-docker",
+				"deploy-app/deploy-manual",
+				"deploy-app/deploy-ghpages",
 			],
 		},
 		{
@@ -139,7 +140,7 @@ const sidebars = {
 					items: [
 						"guides-frontend/asset/add-bkg-img",
 						"guides-frontend/asset/add-static-asset",
-						"guides-frontend/asset/add-font"
+						"guides-frontend/asset/add-font",
 					],
 				},
 				"guides-frontend/guide-publish",
@@ -155,7 +156,7 @@ const sidebars = {
 			collapsed: false,
 			items: [
 				"guides-backend/navigate",
-				"guides-backend/send-image-from-backend"
+				"guides-backend/send-image-from-backend",
 			],
 		},
 		{
@@ -163,8 +164,8 @@ const sidebars = {
 			label: "Backend utilities",
 			link: {
 				type: "generated-index",
-				description: 
-				"Utility functions to make backend development easy",
+				description:
+					"Utility functions to make backend development easy",
 			},
 			collapsed: false,
 			items: [
