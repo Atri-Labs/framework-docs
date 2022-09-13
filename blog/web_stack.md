@@ -1,4 +1,4 @@
----
+<!-- ---
 title: How to choose your web development stack?
 description: How to choose your web development stack?
 authors:
@@ -13,4 +13,4 @@ authors:
 ---
 Client-server communication
 
-![Client Server Communication](/snapshots/Client_server.jpg)
+![Client Server Communication](/snapshots/Client_server.jpg) -->
