@@ -8,19 +8,19 @@ In many situations we might want to send image from backend to frontend, to make
 
 #### 1. Make sure atri_utils is installed and imported otherwise run the following command in the terminal
 
-```
+```shell
 pipenv install atri_utils
 ```
 
 #### 2. Make sure you have imported * from atri_utils otherwise add the following piece of code at the top of the main.py file of the route you want to use it in
 
-```
+```python
 from atri_utils import *
 ```
 
 #### 3. Now all you have to do is add the following code in the handle_event/handle_page_request function.
 
-```
+```python
 # if the image is at some location inside the project
 def handle_event(at: Atri, req: Request, res: Response):
     at.Image.custom.src = create_media_response(file_path, mime_type='image/jpeg')

@@ -176,7 +176,10 @@ const sidebars = {
 						type: "generated-index",
 					},
 					collapsed: false,
-					items: ["utilities/chart-data-utils/draw-chart"],
+					items: [
+						"utilities/chart-data-utils/draw-chart",
+						"utilities/chart-data-utils/parse-charts-data"
+					],
 				},
 				{
 					type: "category",
