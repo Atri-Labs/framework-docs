@@ -177,6 +177,7 @@ const sidebars = {
 					collapsed: false,
 					items: [
 						"utilities/chart-data-utils/draw-chart",
+						"utilities/chart-data-utils/parse-charts-data"
 					],
 				},
 				{

@@ -3,7 +3,6 @@ title: Create Media Response
 description: A function of the media-response file in atri-utils
 ---
 
-### UseCase
 The `create_media_response` function can be used to convert `file` or `image-data` into a format which can be used by `Atri-engine's` Image Component
 
 
@@ -17,13 +16,13 @@ Example which we are using refers to a file uploaded by the user and wants to di
 
 
 
-##### 1. Make sure atri-utils is imported on the top as:
+### 1. Make sure atri-utils is imported on the top as:
 
 ```python
 from atri_utils import *
 ```
 
-##### 2. Code for the main.py to show the Uploaded Image on the frontend
+### 2. Use the following code in the main.py to show the Uploaded Image on the frontend.
 
 ```python
 def handle_event(at: Atri, req: Request, res: Response):
@@ -34,7 +33,7 @@ def handle_event(at: Atri, req: Request, res: Response):
 ```
 
 
-##### 3. Now from the Frontend of the published app click on the Upload button and upload a valid image it will show up in the Image component specified
+### 3. Now from the Frontend of the published app click on the Upload button and upload a valid image it will show up in the Image component specified.
 
 
 Note :- This function can be used with multiple data types including `bytes`, `filepath`, `BinaryIO`
