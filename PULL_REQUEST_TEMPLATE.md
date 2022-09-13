@@ -6,3 +6,5 @@ Before submitting this PR, please make sure:
 ```
 $ yarn build
 ```
+
+- [ ] You have checked the spellings and grammar of your text. We recommend using `Code Spell Checker` and `LTeX – LanguageTool grammar/spell checking` extensions in VS Code.
