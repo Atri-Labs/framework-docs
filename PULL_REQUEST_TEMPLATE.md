@@ -1,3 +1,6 @@
+Add description here and mark x inside the square brackets in the checklist below to indicate that you have adhered to the guidelines.
+
+------------------------------------------------------------------------
 Thank you for your contribution to the documentation of Atri framework. 
 
 Before submitting this PR, please make sure:
