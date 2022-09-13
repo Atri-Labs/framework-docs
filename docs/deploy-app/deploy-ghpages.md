@@ -1,5 +1,5 @@
 ---
-title: Deploy to Github Pages
+title: Deploy to GitHub Pages
 description: Deploy server side generated pages to GitHub
 ---
 
