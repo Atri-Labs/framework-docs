@@ -2,10 +2,23 @@
 title: Deploy to GitHub Pages
 description: Deploy server side generated pages to GitHub
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-GitHub provides a free service to host your static website. Atri framework helps you to use this feature to quickly deploy this website. Each GitHub repository can have one static website. The website is by default deployed on url `https://<username>.github.io/<repo-name>`. It is easy to deploy your webiste on a custom domain for which you can follow the steps here.
+GitHub provides a free service to host your static website. Atri framework helps you to use this feature to quickly deploy your website. 
 
-You have to specifiy your GitHub repository details such as organization name in the `atri_app/atri-server-info.json` file.
+:::info
+Each GitHub repository can have only one static website which is deployed by default at `https://<username>.github.io/<repo-name>`. You can configure the settings of your repository to deploy to a custom domain by following the instructions [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). 
+:::
+
+Let us now deploy your static site using Atri framework. 
+
+### Step 1: Add your GitHub organization name and repository name in the `atri_app/atri-server-info.json` file.
+
+The field `organizationName` is either your GitHub username or your GitHub organization name. The field `projectName` is your repository name.
+
+<Tabs>
+<TabItem value="atri_app/atri-server-info.json" label="atri_app/atri-server-info.json" default>
 
 ```json
 {
@@ -26,31 +39,54 @@ You have to specifiy your GitHub repository details such as organization name in
 	// highlight-end
 }
 ```
+</TabItem>
+</Tabs>
 
-The field `organizationName` is either your GitHub username or your GitHub organization name. The field `projectName` is your repository name.
+### Step 2: Build pages
 
-### Build
+:::info
+User and organization sites are available at `http(s)://<username>.github.io` or `http(s)://<organization>.github.io`.
 
-First you need to build pages before you can deploy it to GitHub pages. To build the pages you can run the following command:
+Project sites are available at `http(s)://<username>.github.io/<repository>` or `http(s)://<organization>.github.io/<repository>`. 
+:::
+
+Follow different instructions if you are deploying a user/organization site or a project site. 
+
+<Tabs>
+<TabItem value="User/Organization site" label="User / Organization site" default>
 
 ```shell
+cd project_root
+pipenv shell
+atri build ssg
+```
+
+</TabItem>
+<TabItem value="Project site" label="Project site" default>
+
+```shell
+cd project_root
+pipenv shell
 ASSET_URL_PREFIX="/<your-repo-name>" atri build ssg
 ```
 
-Providing `ASSET_URL_PREFIX` environment variable, changes the `basename` for your website. You don't need to provide `ASSET_URL_PREFIX` if you are making your repository name is `<username>.github.io`, in other words, if you are deploying to your GitHub home page, the generated url will not have any basename.
+</TabItem>
+</Tabs>
 
-### Deploy
+Providing `ASSET_URL_PREFIX` environment variable changes the `basename` for your website. You don't need to provide this variable if you are deploying a user/organization site. 
+
+### Step 3: Deploy
 
 Next, you can run the following command:
 
 ```shell
-cd project_root
-
-pipenv shell
-
 GIT_USER=<username> atri deploy ssg --gh-pages
 ```
 
-Once this command is successfully completed, you can go ahead and check the `Actions` tab in GitHub for the status of your deployment. By default, the static pages are deployed using `gh-pages` branch. If you want to deploy using a different branch, you can add `deploymentBranch` field in the `atri_app/atri-server-info.json` file.
+Once this command is successfully completed, you can go ahead and check the `Actions` tab in GitHub for the status of your deployment. By default, the static pages are deployed using `gh-pages` branch. 
 
-On running the above command, Github might prompt you to enter your password for your GitHub account. Due to recent changes in GitHub's policy, you actually need to provide a `token` as your password. You can open this Github link to generate a new token once you are logged into GitHub in your browser.
+:::info
+If you want to deploy using a different branch, you can add `deploymentBranch` field in the `atri_app/atri-server-info.json` file.
+:::
+
+On running the above command, GitHub might prompt you to enter your password for your GitHub account. Due to recent changes in GitHub's policy, you actually need to provide a `token` as your password. You can follow instructions provided [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to generate a new token once you are logged into GitHub in your browser.
