@@ -1,3 +1,8 @@
+- Add description here  
+- Mark x inside the square brackets in the checklist below to indicate that you have adhered to the guidelines. 
+- Check `Preview` to review your PR. 
+
+------------------------------------------------------------------------
 Thank you for your contribution to the documentation of Atri framework. 
 
 Before submitting this PR, please make sure:
@@ -6,3 +11,5 @@ Before submitting this PR, please make sure:
 ```
 $ yarn build
 ```
+
+- [ ] You have checked the spellings and grammar of your text. We recommend using `Code Spell Checker` and `LTeX – LanguageTool grammar/spell checking` extensions in VS Code.
