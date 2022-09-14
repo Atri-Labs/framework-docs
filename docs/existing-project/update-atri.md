@@ -72,7 +72,7 @@ rm controllers/server.py
 ```shell
 cd project_dir
 
-rmdir -rf atri_app
+rmdir  atri_app
 
 del "controllers/server.py"
 ```
