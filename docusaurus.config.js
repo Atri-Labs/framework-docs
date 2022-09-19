@@ -57,7 +57,6 @@ const config = {
 			}),
 		],
 	],
-
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
@@ -122,6 +121,18 @@ const config = {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
+			algolia: {
+			  // The application ID provided by Algolia
+			  appId: 'Z9I0IHDCQY',
+
+			  // Public API key: it is safe to commit it
+			  apiKey: '9e244f763024c7786e4376c7375e05cd',
+
+			  indexName: 'atrilabs',
+
+			  // Optional: see doc section below
+			  contextualSearch: true
+			}
 		}),
 };
 
