@@ -13,7 +13,7 @@ Atri framework is a full-stack web development framework to build Progressive We
 
 Atri is a general purpose framework that can be used to build everything from e-commerce websites to internal apps. 
 
-![teaser-image](snapshots/teaser-image.png)
+![teaser-image](/snapshots/teaser-image.png)
 
 ### Websites built using Atri framework
 
