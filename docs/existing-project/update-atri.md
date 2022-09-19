@@ -70,7 +70,7 @@ rm controllers/server.py
 <TabItem value="conda" label="Windows">
 
 ```shell
-cd project_dir
+cd my_app
 
 rmdir  atri_app
 
