@@ -55,6 +55,9 @@ pip install atri -U
 
 Currently, the below process is manual, and soon these steps will be automated.
 
+<Tabs>
+<TabItem value="pipenv" label="Mac/Linux" default>
+
 ```shell
 cd my_app
 
@@ -62,6 +65,21 @@ rm -rf atri_app
 
 rm controllers/server.py
 ```
+
+</TabItem>
+<TabItem value="conda" label="Windows">
+
+```shell
+cd my_app
+
+rmdir  atri_app
+
+del "controllers/server.py"
+```
+
+</TabItem>
+</Tabs>
+
 
 ### 4. Start Atri engine 
 
