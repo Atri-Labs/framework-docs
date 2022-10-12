@@ -13,7 +13,7 @@ Each GitHub repository can have only one static website which is deployed by def
 
 Let us now deploy your static site using Atri framework. 
 
-### Step 1: Add your GitHub organization name and repository name in the `atri_app/atri-server-info.json` file.
+### Step 1: Add your GitHub organization name and repository name
 
 The field `organizationName` is either your GitHub username or your GitHub organization name. The field `projectName` is your repository name.
 
