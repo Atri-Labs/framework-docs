@@ -4,16 +4,16 @@
         <title>Atri Labs Blog</title>
         <link>https://docs.atrilabs.com/blog</link>
         <description>Atri Labs Blog</description>
-        <lastBuildDate>Wed, 12 Oct 2022 18:27:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Oct 2022 18:46:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[web_stack]]></title>
+            <title><![CDATA[How to choose your web development stack?]]></title>
             <link>https://docs.atrilabs.com/blog/web_stack</link>
             <guid>/web_stack</guid>
-            <pubDate>Wed, 12 Oct 2022 18:27:57 GMT</pubDate>
-            <description><![CDATA[<!-- ---]]></description>
+            <pubDate>Wed, 12 Oct 2022 18:46:02 GMT</pubDate>
+            <description><![CDATA[How to choose your web development stack?]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
