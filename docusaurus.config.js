@@ -3,10 +3,22 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-
+const axios = require('axios')
 /** @type {import('@docusaurus/types').Config} */
+//
+// const startdata =async () => {
+// 	var sk = await axios.get('https://api.github.com/repos/Atri-Labs/atrilabs-engine', {
+//     	headers: {
+//         	'Accept': 'application/vnd.github.preview'
+//     	}
+// 	}).then(response=>{return  response.data.stargazers_count})
+// 		console.log(sk,"Hello")
+// 		return sk;
+// }
+
 const config = {
 	title: "Atri Labs",
+
 	tagline: "Build better apps faster",
 	url: "https://docs.atrilabs.com",
 	baseUrl: "/",
@@ -76,9 +88,16 @@ const config = {
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
 						href: "https://github.com/Atri-Labs/atrilabs-engine",
-						label: "GitHub",
 						position: "right",
+						className: "header-github-link",
+						"aria-label": "GitHub repository",
 					},
+					// {
+					//     type: 'html',
+					// 	position: 'right',
+					// 	value: '<iframe src="https://ghbtns.com/github-btn.html?user=Atri-Labs&repo=atrilabs-engine&type=star&count=true" frameborder="0" scrolling="0" width="90" height="20" title="GitHub"></iframe>',
+					// 	className: "stars-sign"
+					// }
 				],
 			},
 			footer: {
