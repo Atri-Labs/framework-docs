@@ -3,18 +3,6 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const axios = require('axios')
-/** @type {import('@docusaurus/types').Config} */
-//
-// const startdata =async () => {
-// 	var sk = await axios.get('https://api.github.com/repos/Atri-Labs/atrilabs-engine', {
-//     	headers: {
-//         	'Accept': 'application/vnd.github.preview'
-//     	}
-// 	}).then(response=>{return  response.data.stargazers_count})
-// 		console.log(sk,"Hello")
-// 		return sk;
-// }
 
 const config = {
 	title: "Atri Labs",
