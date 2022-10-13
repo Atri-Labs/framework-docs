@@ -17,10 +17,20 @@ Atri is a general purpose framework that can be used to build everything from e-
 
 ### Websites built using Atri framework
 
+- [Ecommerce website](https://atri-apps.github.io/full_stack_ecommerce_website)
+- [Restaurant ordering website](https://atri-apps.github.io/restaurant_website)
 - [Personal blog](https://atri-apps.github.io/personal_blog/)
 - [Data app](https://atri-apps.github.io/review_tabular_data/)
 
 Find more example websites and apps at [Atri-Apps](https://github.com/orgs/Atri-Apps/repositories). 
+
+## How is Atri framework different from other web development frameworks?
+
+1. Atri framework is not just limited to the JavaScript world. You can use this framework with many languages such as Python, NodeJS (upcoming), etc.
+2. Atri framework comes with a suite of productivity tools such as visual editor, asset management tools, etc. that significantly reduce development time from months to hours.
+3.  Using Atri framework, developers do not need to write and document REST APIs. Instead, they rely upon the object model which acts as a single source of truth. This also has other benefits as well such as reducing compliance breaches. 
+
+Thus, Atri framework is extending the definition of full-stack to include non web developers in the development and maintenance of an app. 
 
 ## Objectives of the framework
 This framework aims to improve the experience of website development for developers. It enhances the developer productivity by adapting to the best possible ways. We are committed to achieve the following objectives via this framework:
