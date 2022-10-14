@@ -12,6 +12,9 @@ mkdir my_app
 
 ### 2. Install `atri` CLI
 
+:::note
+Make sure that pipenv is installed and added to the `PATH` environment variable.
+:::note
 From inside the project directory, `my_app` in this example, run the following command:
 
 ```bash
@@ -57,4 +60,11 @@ If you are using the framework for the first time, we strongly recommend you fol
 
 ### Problems?
 
-If you faced any problems during installation or have any other queries, you may reach out to us in our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w). 
+If you faced any problems during installation refer to the following FAQ:-
+
+- Getting installation failed with error: ''pipenv' is not recognized as an internal or external command' ?[view answer](https://github.com/Atri-Labs/atrilabs-engine/discussions/340)
+- Receiving TypeError upon running atri start ? [view answer](https://github.com/Atri-Labs/atrilabs-engine/discussions/334).
+- Running pipenv install atri results in 'The term 'pipenv' is not recognized as the name of a cmdlet, function, script file, or operable program.' error ? [view answer](https://github.com/Atri-Labs/atrilabs-engine/discussions/338).
+
+Also, if you still have some unresolved errors you can visit the other questions in the discussions [here,](https://github.com/Atri-Labs/atrilabs-engine/discussions/categories/help-installation-start)
+or you may reach out to us at our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w). 
