@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[5194],{9515:t=>{t.exports=JSON.parse('{"title":"Getting Started","slug":"/category/getting-started","permalink":"/category/getting-started","navigation":{"previous":{"title":"Introduction","permalink":"/"},"next":{"title":"Installation","permalink":"/category/installation"}}}')}}]);
