@@ -128,7 +128,7 @@ const sidebars = {
 					items: [
 						"guides-frontend/template/add-template",
 						"guides-frontend/template/use-template",
-						"guides-frontend/template/guide-breakpoint",
+						"guides-frontend/template/responsive-navbar-example",
 					],
 				},
 				{
