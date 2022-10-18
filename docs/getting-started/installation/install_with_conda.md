@@ -20,6 +20,9 @@ Run the following command to create an environment. In this example, we are crea
 cd my_app
 conda create -y -n my_env python
 ```
+:::tip
+Make sure that you have installed `python` inside the virtual environment by running the above command.
+:::
 
 ### 3. Install `atri` CLI
 
