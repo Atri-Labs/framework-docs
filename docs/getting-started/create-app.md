@@ -85,7 +85,7 @@ Atri framework can be used to create powerful multi-page, responsive apps. We ar
 
 Here are a few immediate next steps to consider:
 
--   Create your [portfolio](https://atrilabs.com) to showcase your data science, machine learning or web development skills to the world.
+-   Refer to our [video tutorials]([url](https://www.youtube.com/watch?v=p135tfBvdaE&list=PLTQwOMNg4n8CJf2mbF5pJ3A9cEjr1gdRf)) to learn how to create your next app. 
 -   Join our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w) to ask questions, share your projects and get inspired.
--   Refer the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
+-   Refer to the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
 -   Learn concepts of the [visual editor](/category/concepts-of-visual-editor) and [Python backend](/category/concepts-of-python-backend).
