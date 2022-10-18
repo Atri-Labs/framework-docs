@@ -16,13 +16,14 @@ mkdir my_app
 
 Run the following command to create an environment. In this example, we are creating a conda environment called `my_env`. You can choose any name for this environment.
 
+:::note
+Make sure that you install `python` inside the virtual environment by running the below command.
+:::
+
 ```bash
 cd my_app
 conda create -y -n my_env python
 ```
-:::tip
-Make sure that you have installed `python` inside the virtual environment by running the above command.
-:::
 
 ### 3. Install `atri` CLI
 
