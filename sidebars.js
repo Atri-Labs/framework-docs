@@ -66,7 +66,7 @@ const sidebars = {
 						type: "generated-index",
 					},
 					collapsed: false,
-					items: ["comp-reference/basics/upload"],
+					items: ["comp-reference/basics/upload", "comp-reference/basics/dropdown"],
 				},
 				{
 					type: "category",

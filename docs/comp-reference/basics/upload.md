@@ -5,7 +5,7 @@ description: Create an upload button to upload one or many files
 
 ## Upload one file
 
-Drag & drop an `Upload` button from component picker onto the canvas. You can make changes to the look and feel of the `Upload` button in the styles panel. Once ready with your changes you can hit `Publish` on the top right corner.
+Drag & drop an `Upload` button from component picker onto the canvas. You can make changes to the look and feel of the `Upload` button in the styles panel. Once ready with your changes you can hit `Build & Run` on the top right corner.
 
 Now, in the `main.py` file, the `handle_event` function will be called everytime user uploads a file. Let's assume the name of the `Upload` component is `upload1`, then, we can write the following python code -
 
