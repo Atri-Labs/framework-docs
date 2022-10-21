@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[30],{3156:e=>{e.exports=JSON.parse('{"title":"Data","slug":"/category/data","permalink":"/category/data","navigation":{"previous":{"title":"Dropdown","permalink":"/comp-reference/basics/dropdown"},"next":{"title":"Area Chart","permalink":"/comp-reference/charts/area-chart"}}}')}}]);
