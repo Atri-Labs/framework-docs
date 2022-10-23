@@ -95,30 +95,34 @@ const config = {
 						title: "Community",
 						items: [
 							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/atri",
-							},
-							{
 								label: "Slack",
 								href: "https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w",
 							},
 							{
-								label: "Linkedin",
-								href: "https://www.linkedin.com/company/atri-labs",
-							},
+								label: "Stack Overflow",
+								href: "https://stackoverflow.com/questions/tagged/atri",
+							}
 						],
 					},
 					{
 						title: "More",
 						items: [
 							{
-								label: "Blog",
-								to: "/blog",
-							},
-							{
 								label: "GitHub",
 								href: "https://github.com/Atri-Labs/atrilabs-engine",
 							},
+							{
+								label: "Linkedin",
+								href: "https://www.linkedin.com/company/atri-labs",
+							},
+							{
+								label: "Twitter",
+								href: "https://twitter.com/atrilabs",
+							},
+							{
+								label: "Blog",
+								to: "/blog",
+							}
 						],
 					},
 				],
