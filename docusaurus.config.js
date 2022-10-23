@@ -105,7 +105,7 @@ const config = {
 						],
 					},
 					{
-						title: "More",
+						title: "Social",
 						items: [
 							{
 								label: "GitHub",
