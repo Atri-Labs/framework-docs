@@ -75,6 +75,12 @@ const config = {
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
+						type: 'docSidebar',  // docSidebar
+						position: 'left',
+						sidebarId: 'tutorials', // foldername
+						label: 'Tutorials',     // navbar title
+					},
+					{
 						href: "https://github.com/Atri-Labs/atrilabs-engine",
 						position: "right",
 						className: "header-github-link",
