@@ -59,8 +59,6 @@ Currently, the below process is manual, and soon these steps will be automated.
 <TabItem value="pipenv" label="Mac/Linux" default>
 
 ```shell
-cd my_app
-
 rm -rf atri_app
 
 rm controllers/server.py
@@ -70,8 +68,6 @@ rm controllers/server.py
 <TabItem value="conda" label="Windows">
 
 ```shell
-cd my_app
-
 rmdir  atri_app
 
 del "controllers/server.py"
