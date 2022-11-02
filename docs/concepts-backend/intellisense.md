@@ -2,8 +2,10 @@
 title: Intellisense in Python backend
 description: Intellisense explained
 ---
-Intellisense is a code-completion aid that we may use while writing the backend code. Using intellisense, we can write code quickly without having to remember the API structure of components. 
+Intellisense is a code-completion aid that we may use while writing the backend code. 
 
-Using intellisense is very easy. Just pausing after each `.` while writing the API shows all the possible values in the structure. 
+- Using Intellisense, we can write code quickly without having to remember the API structure of components. 
 
-##### Add video recording here
+## How to make use of Intellisense?
+
+Just pausing after typing each `.` while writing your backend code. The API will show all the possible values in the structure. 
