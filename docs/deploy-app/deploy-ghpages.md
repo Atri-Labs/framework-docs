@@ -58,6 +58,7 @@ Follow different instructions if you are deploying a user/organization site or a
 ```shell
 cd project_root
 pipenv shell
+export MODE=production
 atri build ssg
 ```
 
@@ -67,6 +68,7 @@ atri build ssg
 ```shell
 cd project_root
 pipenv shell
+export MODE=production
 ASSET_URL_PREFIX="/<your-repo-name>" atri build ssg
 ```
 
