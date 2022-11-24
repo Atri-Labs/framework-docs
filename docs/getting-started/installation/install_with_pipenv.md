@@ -17,9 +17,9 @@ Make sure that pipenv is installed and added to the `PATH` environment variable.
 :::note
 From inside the project directory, `my_app` in this example, run the following command:
 
-```bash
+```shell
 cd my_app
-pipenv install atri==0.0.78
+pipenv install atri == 0.0.78
 ```
 
 :::success 

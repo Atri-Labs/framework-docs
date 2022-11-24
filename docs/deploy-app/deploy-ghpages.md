@@ -58,7 +58,7 @@ Follow different instructions if you are deploying a user/organization site or a
 ```shell
 cd project_root
 pipenv shell
-export MODE=production
+export MODE = production
 atri build ssg
 ```
 
@@ -82,7 +82,7 @@ Providing `ASSET_URL_PREFIX` environment variable changes the `basename` for you
 Next, you can run the following command:
 
 ```shell
-GIT_USER=<username> atri deploy ssg --gh-pages
+GIT_USER = <username> atri deploy ssg --gh-pages
 ```
 
 Once this command is successfully completed, you can go ahead and check the `Actions` tab in GitHub for the status of your deployment. By default, the static pages are deployed using `gh-pages` branch. 
