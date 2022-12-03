@@ -4,7 +4,7 @@ description: Prerequisities to satisfy before getting started with Atri Framewor
 ---
 Before we get started with the framework, please ensure that you satisfy the following prerequisities. 
 
-### 1. Python 3.7+
+### 1. Python >3.7 & <=3.10.8
 
 The Atri framework supports Python version 3.7 or above. 
 
