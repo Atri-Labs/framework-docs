@@ -3,7 +3,7 @@ title: Deploy manually
 description: Deploy app manually
 ---
 
-Running you application involves two steps - starting up the python server and starting up the Node server. Make sure that you have published the app from the visual editor as discussed here [Publish App](/concepts-visual-editor/publish-app.md). To run it on your system you must have `python` and `NodeJS 16+` installed.
+Running you application involves two steps - starting up the python server and starting up the Node server. Make sure that you have published the app from the visual editor as discussed here [Publish App](/concepts-visual-editor/publish-app.md) and ran `atri build ssg`. To run it on your system you must have `python` and `NodeJS 16+` installed.
 
 ### Run python server
 
