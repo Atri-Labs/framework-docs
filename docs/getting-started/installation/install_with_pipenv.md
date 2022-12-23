@@ -19,7 +19,7 @@ From inside the project directory, `my_app` in this example, run the following c
 
 ```shell
 cd my_app
-pipenv install atri == 0.0.78
+pipenv install atri==0.0.78
 ```
 
 :::success 
