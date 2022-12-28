@@ -32,9 +32,9 @@ This will open the `Component Picker`. Drag-and-drop the bar chart from the Data
 We always refer a component by the same name in the code as the name that appears on the right panel.
 :::
 
-3. Click `Publish` in the top menu.
+3. Click `Build and Run` in the top menu.
 
-![Publish](/snapshots/publish.png)
+![Publish](/snapshots/build.png)
 
 Our app is now built and is running at `http://localhost:4005/`.
 
