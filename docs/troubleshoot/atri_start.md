@@ -3,7 +3,7 @@ title: Other bugs
 description: How to debug errors faced while using Atri framework
 ---
 
-Please refer to the Frequently Asked Questions in this page. If the provided solution does not resolve your error or you do not find your error discussed here, please submit a Pull Request.
+Please refer to the Frequently Asked Questions in this page. If the provided solution does not resolve your error or you do not find your error discussed here, please jump to [the last section](#still-need-help).
 
 ### TypeError: Cannot read properties of undefined (reading 'text')
 
@@ -13,7 +13,7 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 
 **Fix**: Please refresh the page once. Sometimes, the link opens on the browser before the entire build is complete which results in this error.
 
-### New Error?
+### Still Need Help?
 
 1. Stop the current development session by pressing `Ctrl + C` in the Terminal.
 
