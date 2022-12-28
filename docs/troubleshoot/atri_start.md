@@ -7,11 +7,17 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 
 ### TypeError: Cannot read properties of undefined (reading 'text')
 
-**Description**: Upon running `atri start`, a new tab opens in the browser at port 4005 (as expected) but instead of the visual editor opening at that port, TypeError is received.
+**Description**: On running `atri start`, a new tab opens in the browser at port 4005 (as expected) but instead of the visual editor opening at that port, TypeError is received.
 
 ![Error](https://user-images.githubusercontent.com/102641692/194763928-994a98a1-b3fb-4426-af22-16f76ceeeb2a.png)
 
 **Fix**: Please refresh the page once. Sometimes, the link opens on the browser before the entire build is complete which results in this error.
+
+### ModuleNotFoundError: No module named atri_utils
+
+**Description**: On running `atri start`, the Terminal shows `ModuleNotFoundError`. 
+
+**Fix**: Python installation seems to have failed. Please install it manually.
 
 ### Still Need Help?
 
