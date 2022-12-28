@@ -16,3 +16,7 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 Your pre-requisites are not satisfied. Refer to [the documentation](https://docs.atrilabs.com/getting-started/installation/install_prereqs) for details. 
 
 If you have installed `pipenv` but are still facing this issue, then add `pipenv` to the PATH environment variable. Refer this guide for [reference](https://datatofish.com/add-python-to-windows-path/). 
+
+### Unable to create process error
+
+Run `pipenv install atri` again. If it still doesn't work, upgrade your Python /`pipenv`.
