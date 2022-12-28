@@ -34,6 +34,7 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
+				"troubleshoot/installation_error",
 				"troubleshoot/atri_start",
 			],
 		},
