@@ -3,6 +3,8 @@ title: Installation bugs
 description: How to debug errors faced during installation
 ---
 
+Please refer to the Frequently Asked Questions in this page. If the provided solution does not resolve your error or you do not find your error discussed here, please submit a [new Discussion](https://github.com/Atri-Labs/atrilabs-engine/discussions/categories/help-installation-start).
+
 ### pipenv is not recognized as an internal or external command, operable program or batch file
 
 1. Check if pipenv is installed in your system. Make sure you [satisfy the prerequisites](getting-started/installation/install_prereqs).  
