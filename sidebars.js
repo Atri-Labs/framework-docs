@@ -28,6 +28,17 @@ const sidebars = {
 		},
 		{
 			type: "category",
+			label: "Troubleshooting",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
+			items: [
+				"troubleshoot/atri_start.md",
+			],
+		},
+		{
+			type: "category",
 			label: "Existing Project",
 			link: {
 				type: "generated-index",
