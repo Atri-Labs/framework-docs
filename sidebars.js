@@ -28,6 +28,18 @@ const sidebars = {
 		},
 		{
 			type: "category",
+			label: "Troubleshooting",
+			link: {
+				type: "generated-index",
+			},
+			collapsed: false,
+			items: [
+				"troubleshoot/installation_error",
+				"troubleshoot/atri_start",
+			],
+		},
+		{
+			type: "category",
 			label: "Existing Project",
 			link: {
 				type: "generated-index",
