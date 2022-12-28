@@ -32,7 +32,7 @@ This will open the `Component Picker`. Drag-and-drop the bar chart from the Data
 We always refer a component by the same name in the code as the name that appears on the right panel.
 :::
 
-3. Click `Publish` in the top menu.
+3. Click `Build & Run` in the top menu.
 
 ![Publish](/snapshots/publish.png)
 
@@ -62,6 +62,7 @@ def init_state(at: Atri):
     at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50}, 
                            {"x":2011, "category1":30, "category2":60}]
     # highlight-end
+    pass
 
 def handle_page_request(at: Atri, req: Request, res: Response):
     pass
