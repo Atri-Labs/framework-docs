@@ -39,6 +39,10 @@ Once the the virtual environment is activated, please run the following command 
 
 ```
 pipenv update atri
+
+# If you face error in the above command, run the command below instead:
+
+pipenv install atri
 ```
 
 </TabItem>
