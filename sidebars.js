@@ -34,9 +34,9 @@ const sidebars = {
 			},
 			collapsed: false,
 			items: [
-				"troubleshoot/prereq",
+				"troubleshoot/prereq_error",
 				"troubleshoot/installation_error",
-				"troubleshoot/atri_start",
+				"troubleshoot/start_error",
 			],
 		},
 		{
