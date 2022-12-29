@@ -90,6 +90,6 @@ Here are a few immediate next steps to consider:
 -   Refer to the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
 -   Learn concepts of the [visual editor](/category/concepts-of-visual-editor) and [Python backend](/category/concepts-of-python-backend).
 
-### Problems?
+## Problems?
 
 If you are facing any problems while creating an Atri app, refer to the [frequently asked questions](../../troubleshoot/start_error). 

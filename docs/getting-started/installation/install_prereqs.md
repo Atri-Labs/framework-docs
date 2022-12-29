@@ -39,13 +39,13 @@ Depending on your system's configuration, you might write `pip3` instead.
 
 If you would like to use `conda` instead of `pipenv`, please follow the instructions provided [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation) to install `conda`.
 
-### Next Steps
+## Next Steps
 
 Perfect! Now that all the prerequisites have been satisfied, let us install `atri` CLI. Depending on the virtual environment package you are using, you can go to either of these two pages:
 
 - [Install Atri using pipenv](getting-started/installation/install_with_pipenv.md)
 - [Install Atri using conda](getting-started/installation/install_with_conda.md)
 
-### Problems?
+## Problems?
 
 If you are facing any problems while installing these prerequisites, refer to the [frequently asked questions](../../troubleshoot/prereq_error). 
