@@ -27,8 +27,6 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 
 **Fix**: It seems Python packages did not get installed correctly. You will have to install them manually.
 
-
-
 ### Still Need Help?
 
 1. Stop the current development session by pressing `Ctrl + C` in the Terminal.
