@@ -5,7 +5,7 @@ description: Prerequisities to satisfy before getting started with Atri Framewor
 Before we get started with the framework, please ensure that you satisfy the following prerequisities. 
 
 :::note
-Use CMD instead of Git Bash in Windows. 
+Use CMD instead of Git Bash/Powershell in Windows. 
 :::
 
 ### 1. Python >=3.8 & <=3.10.8
