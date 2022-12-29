@@ -11,6 +11,32 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 2. Check if pipenv is added in the PATH environment variable.
 3. Refer to [this Stack overflow answer](https://stackoverflow.com/a/47676529).
 
+### The term 'pipenv' is not recognized as the name of a cmdlet, function, script file, or operable program.
+
+**Description**:
+
+```
+PS C:\Users\User\my_app> pipenv install atri
+pipenv : The term 'pipenv' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
+
+pipenv install atri
+  + CategoryInfo          : ObjectNotFound: (pipenv:String) [], CommandNotFoundException
+  + FullyQualifiedErrorId : CommandNotFoundException`
+```
+
+**Fix**:
+
+| | What to do? | How to do it?|
+| --- | --- | --- |
+| 1 | Deactivate the virtual environment |  Run `exit` (pipenv) or `conda deactivate` (conda) |
+| 2 | Add `pipenv` to the PATH environment variable | Follow the instructions shared [here](https://github.com/Atri-Labs/atrilabs-engine/discussions/586) |
+| 3 | Activate the virtual environment | Run `pipenv shell` or `conda activate my_env` | 
+| 4 | Install `atri CLI` | Run `pipenv install atri==0.0.78` or `conda create -y -n my_env python` |
+
+Additional resources: https://stackoverflow.com/questions/46041719/windows-reports-error-when-trying-to-install-package-using-pipenv/47676529#47676529
+
 ### zsh: command not found: pipenv 
 
 Your pre-requisites are not satisfied. Refer to [the documentation](https://docs.atrilabs.com/getting-started/installation/install_prereqs) for details. 
