@@ -48,4 +48,4 @@ Perfect! Now that all the prerequisites have been satisfied, let us install `atr
 
 ### Problems?
 
-If you are facing any problems while installing these prerequisites, refer to the [frequently asked questions](troubleshoot/prereq). 
+If you are facing any problems while installing these prerequisites, refer to the [frequently asked questions](troubleshoot/prereq_error). 
