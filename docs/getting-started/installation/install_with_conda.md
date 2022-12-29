@@ -68,4 +68,4 @@ If you are using the framework for the first time, we strongly recommend you fol
 
 ### Problems?
 
-If you faced any problems during installation or have any other queries, you may reach out to us in our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w). 
+If you are facing any problems during installation, refer to the [frequently asked questions](troubleshoot/installation_error). 
