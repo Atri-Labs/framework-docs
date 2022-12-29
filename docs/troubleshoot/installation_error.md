@@ -20,3 +20,7 @@ If you have installed `pipenv` but are still facing this issue, then add `pipenv
 ### Unable to create process error
 
 Run `pipenv install atri` again. If it still doesn't work, upgrade your Python /`pipenv`.
+
+### ERROR:: --system is intended to be used for pre-existing Pipfile installation, not installation of specific packages. Aborting.
+
+This error occurs due to an existing virtual environment created for the same path. To resolve this error in Unix based OS, visit your `virtualenvs` and delete the folder with the same name to your projects directory.
