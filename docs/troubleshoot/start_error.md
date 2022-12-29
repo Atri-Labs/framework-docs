@@ -17,7 +17,17 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 
 **Description**: On running `atri start`, the Terminal shows `ModuleNotFoundError`. 
 
-**Fix**: Python installation seems to have failed. Please install it manually.
+**Fix**:
+
+You may be getting this error due to many reasons:
+
+1. You might not be running inside the virtual environment you created for this project.
+
+2. Pipenv failed to install `atri_utils` when you pressed `Build & Run`.
+
+Solution:
+
+Manually install the `atri_utils` package in your environment.
 
 ### ModuleNotFoundError: No module named 'fastapi'
 
