@@ -68,4 +68,4 @@ If you are using the framework for the first time, we strongly recommend you fol
 
 ### Problems?
 
-If you are facing any problems during installation, refer to the [frequently asked questions](troubleshoot/installation_error). 
+If you are facing any problems during installation, refer to the [frequently asked questions](../../troubleshoot/installation_error). 
