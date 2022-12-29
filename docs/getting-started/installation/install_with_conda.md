@@ -5,7 +5,7 @@ description: How to install Atri Framework when you are using conda virtual envi
 If you are using `pipenv` virtual environment, you should skip this page. 
 
 :::note
-Use CMD instead of Git Bash/Powershell in Windows. 
+Use CMD instead of Git Bash / Powershell in Windows. 
 :::
 
 ### 1. Create a project directory
