@@ -52,16 +52,16 @@ You will be asked to select the virtual environment tool you are using. Please s
 Congratulations! Atri framework is now ready to use. The visual editor is now available at `http://localhost:4002`.
 :::
 
-### Summary 
+## Summary 
 
 Below is a quick review of the steps we followed to install and run Atri engine using pipenv. 
 
 ![New project using pipenv](/snapshots/new_proj_pipenv.jpeg)
 
-### Next Steps
+## Next Steps
 
 If you are using the framework for the first time, we strongly recommend you follow the upcoming [tutorial to create a simple app](getting-started/create-app.md). 
 
-### Problems?
+## Problems?
 
 If you are facing any problems during installation, refer to the [frequently asked questions](../../troubleshoot/installation_error). 
