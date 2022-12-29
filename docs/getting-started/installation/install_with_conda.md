@@ -4,6 +4,10 @@ description: How to install Atri Framework when you are using conda virtual envi
 ---
 If you are using `pipenv` virtual environment, you should skip this page. 
 
+:::note
+Use CMD instead of Git Bash in Windows. 
+:::
+
 ### 1. Create a project directory
 
 Create an empty directory anywhere in your repository. It will later contain all the files for your app. In this example, we are creating a directory called `my_app`. You can choose any name for this directory.
