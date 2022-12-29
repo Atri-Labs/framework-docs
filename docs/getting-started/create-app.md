@@ -89,3 +89,7 @@ Here are a few immediate next steps to consider:
 -   Join our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w) to ask questions, share your projects and get inspired.
 -   Refer to the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
 -   Learn concepts of the [visual editor](/category/concepts-of-visual-editor) and [Python backend](/category/concepts-of-python-backend).
+
+### Problems?
+
+If you are facing any problems while creating an Atri app, refer to the [frequently asked questions](troubleshoot/start_error). 
