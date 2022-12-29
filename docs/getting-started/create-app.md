@@ -92,4 +92,4 @@ Here are a few immediate next steps to consider:
 
 ### Problems?
 
-If you are facing any problems while creating an Atri app, refer to the [frequently asked questions](troubleshoot/start_error). 
+If you are facing any problems while creating an Atri app, refer to the [frequently asked questions](../../troubleshoot/start_error). 
