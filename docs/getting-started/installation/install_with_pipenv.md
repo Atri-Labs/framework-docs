@@ -3,7 +3,7 @@ title: Install and run Atri using pipenv
 description: How to install Atri Framework when you are using pipenv virtual environment
 ---
 :::note
-Use CMD instead of Git Bash in Windows. 
+Use CMD instead of Git Bash/Powershell in Windows. 
 :::
 
 ### 1. Create a project directory
