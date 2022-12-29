@@ -19,6 +19,16 @@ Please refer to the Frequently Asked Questions in this page. If the provided sol
 
 **Fix**: Python installation seems to have failed. Please install it manually.
 
+### ModuleNotFoundError: No module named 'fastapi'
+
+**Description**: On running `atri start`, the Terminal shows `ModuleNotFoundError: No module named 'fastapi'. Error occured while running python -m controllers.server serve`. 
+
+![Error](https://user-images.githubusercontent.com/102641692/198579801-01e3b0f1-4a9b-4d94-8bef-0d08ecea1d39.png)
+
+**Fix**: It seems Python packages did not get installed correctly. You will have to install them manually.
+
+
+
 ### Still Need Help?
 
 1. Stop the current development session by pressing `Ctrl + C` in the Terminal.
