@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[3357],{5306:a=>{a.exports=JSON.parse('{"label":"full-stack","permalink":"/blog/tags/full-stack","allTagsPath":"/blog/tags","count":1}')}}]);

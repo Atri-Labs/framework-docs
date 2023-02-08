@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"My journey of creating a web framework like NextJS","permalink":"/blog/journey-atri"},{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);

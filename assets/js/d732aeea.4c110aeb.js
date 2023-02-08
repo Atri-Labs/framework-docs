@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[7322],{1600:a=>{a.exports=JSON.parse('{"label":"nextjs","permalink":"/blog/tags/nextjs","allTagsPath":"/blog/tags","count":1}')}}]);
