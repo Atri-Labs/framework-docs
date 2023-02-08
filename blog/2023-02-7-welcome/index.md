@@ -71,4 +71,4 @@ While NextJS has it’s own router, Atri framework uses the router from `react-r
 
 Needless to say, creating Atri framework has been an incredible learning experience for me. 
 
-If you're interested, please [check it out](/docs/getting-started/) and share our feedback. 
+If you're interested, try out Atri framework and share your feedback! 
