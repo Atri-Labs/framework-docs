@@ -2,6 +2,7 @@
 title: Create your first app
 description: Tutorial to help you create your first app using Atri framework
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -10,7 +11,8 @@ Now that we have installed and started the Atri engine, we will create a very si
 ## Video tutorial
 
 You may follow the video tutorial or skip to the documentation below.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cNCUVF9o8oY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cNCUVF9o8oY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen;"></iframe>
 
 ## Creating frontend of the app
 
@@ -59,7 +61,7 @@ from fastapi import Request, Response
 
 def init_state(at: Atri):
     # highlight-start
-    at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50}, 
+    at.bar1.custom.data = [{"x":2010, "category1":40, "category2":50},
                            {"x":2011, "category1":30, "category2":60}]
     # highlight-end
 
@@ -73,7 +75,7 @@ def handle_event(at: Atri, req: Request, res: Response):
 </TabItem>
 </Tabs>
 
-As soon as we save this file, the changes reflect in our app. 
+As soon as we save this file, the changes reflect in our app.
 
 :::success Congratulations!
 We successfully created an app in a few minutes.
@@ -85,11 +87,11 @@ Atri framework can be used to create powerful multi-page, responsive apps. We ar
 
 Here are a few immediate next steps to consider:
 
--   Refer to our [tutorials](tutorials/bkg_swapper.md) to learn how to create your next app. 
--   Join our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w) to ask questions, share your projects and get inspired.
--   Refer to the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
--   Learn concepts of the [visual editor](/category/concepts-of-visual-editor) and [Python backend](/category/concepts-of-python-backend).
+- Refer to our [tutorials](tutorials/bkg_swapper.md) to learn how to create your next app.
+- Join our [Slack community](https://join.slack.com/t/atricommunity/shared_invite/zt-1e756m1at-bZBxngvw7KWWO0riI4pc0w) to ask questions, share your projects and get inspired.
+- Refer to the [frontend guides](/category/frontend-guides) and [backend guides](/category/backend-guides) to get answers to frequently asked questions.
+- Learn concepts of the [visual editor](/category/concepts-of-visual-editor) and [Python backend](/category/concepts-of-python-backend).
 
 ## Problems?
 
-If you are facing any problems while creating an Atri app, refer to the [frequently asked questions](../../troubleshoot/start_error). 
+If you are facing any problems while creating an Atri app, refer to the [frequently asked questions](../../troubleshoot/start_error).
