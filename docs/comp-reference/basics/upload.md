@@ -28,7 +28,7 @@ def handle_event(at: Atri, req: Request, res: Response):
                 # get the python's BinaryIO file from starlette.UploadFile
                 binaryFile = uploadFile.file
                 # read the bytes in file
-                data = file.read()
+                data = binaryFile.read()
                 # optional - convert bytes into utf-8 format
                 data_utf8 = data.decode()
                 # process data as you process bytes in python ...
