@@ -215,8 +215,29 @@ Note: You need to stop the development server and restart it whenever you add a 
 
 # Handle user event in the backend using Python
 
+Currently we support FastAPI in the backend and have plans to support Django as well in the near future. You can see this video to know more about how we are writing backend.
+
 # Build your applicaton
 
+Once you have made all the changes you want in the app, you can run the following code to build your application.
+
+```
+npm run build
+```
+
+If you are using a virtual environment, make sure you run this command from inside the virtual environment.
+
+To check if the server side code has built properly, we can the output of server side rendering. To do server side rendering, open up NodeJS shell using `node` in your terminal and then write the following code:
+
+```nodejs
+> const index = require("dist/app-build/server/index.js")
+> const html = index.default.renderPage()
+```
+
+You will get the HTML code in `html` variable above.
+
 # Create your own visual builder
+
+We have plans to allow developers to create plugins for the visual builder and also allow developers to create their own visual builder.
 
 # Plans on how backend can be extended
