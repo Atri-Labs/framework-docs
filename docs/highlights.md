@@ -104,11 +104,114 @@ npm run editor
 
 Visit `http://localhost:4000` in your browser to use the visual builder.
 
+# CanvasZone - One of Atri's innovation
+
+The rectangle in the editor comes from the `<CanvasZone id={"main"}/>` in the React code in `pages/index.jsx` file. You can create a `CanvasZone` anywhere in your React code. You can pass `styles` attribute to the `CanvasZone` component like this
+
+```jsx
+import { CanvasZone } from "@atrilabs/canvas-zone";
+
+<CanvasZone
+	id={"main"}
+	styles={{ height: "400px", width: "400px", display: "inline-block" }}
+/>;
+```
+
 # Drag-Drop components in the CanvasZone
+
+You will notice a rectangle (CanvasZone) in the editor. You can start by dropping a component in that rectangle. To drop a component, click on the `+` icon on top-left side of the editor. You will find a grid of components for drag-drop.
 
 # Write React code
 
+In the `pages/index.jsx` file you can modify the existing code to anything that you usually write in any React codebase.
+
+For example,
+
+```jsx
+import { CanvasZone } from "@atrilabs/canvas-zone";
+import { useEffect } from "react";
+
+export default function () {
+	useEffect(() => {
+		// handle your side effects here like you usually do
+	}, []);
+
+	return (
+		<div>
+			<div>You can add your own code here!</div>
+			<CanvasZone id={"main"} />
+		</div>
+	);
+}
+```
+
+You can add as many `CanvasZone` as you want:
+
+```jsx
+import { CanvasZone } from "@atrilabs/canvas-zone";
+import { useEffect } from "react";
+
+export default function () {
+	return (
+		<div>
+			<div>You can add your own code here!</div>
+			<CanvasZone id={"main"} />
+			<div>Some other code here</div>
+			<CanvasZone id={"main2"} />
+		</div>
+	);
+}
+```
+
+Note that each CanvasZone in a page must have a unique id.
+
 # Create a new drag-drop component in React
+
+You can write your React code the way you write them in any other framework, for example, you can make API calls and handle side effects in `useEffect`. There are two steps (three steps in some cases) to create a drag-drop component:
+
+1. Create the React component inside `manifests` directory. The React component must be wrapped around `React.forwardRef` and it must assign `ref` to the topmost element.
+
+Create a `manifests/Some.jsx` file with the following code:
+
+```jsx
+const SomeComponent = React.forwardRef((props, ref) => {
+	return (
+		<div ref={ref} className={props.className}>
+			Some Component
+		</div>
+	);
+});
+
+export default SomeComponent;
+```
+
+2. Create a manifest for the React Component. A manifest describes how the component should behave inside the editor and how the build tools should handle it.
+
+Create a `manifests/Some.manifest.jsx` file with the following code (Notice the file name pattern):
+
+```jsx
+import { createComponentManifest } from "@atrilabs/utils";
+
+export default createComponentManifest({ name: "Some" });
+```
+
+3. Create a development React component. This step is optional because you might need it only for components that might have to behave a bit different inside editor and in actual app. One example could be the Flex component that we provide in the editor. The `Flex` component must have some `height` if there are no children element inside it so that it provides some room for the user to drop a new component.
+
+To create a development component, create `manifests/Some.dev.jsx` file with following code.
+
+```jsx
+const SomeDevComponent = React.forwardRef((props, ref) => {
+	return (
+		<div ref={ref} className={props.className}>
+			Some Dev Component
+		</div>
+	);
+});
+
+export default SomeDevComponent;
+```
+
+Note: You need to stop the development server and restart it whenever you add a new component. You don't need to do this when you modify a component and hot-reloading will kick in whenever you make a change.
 
 # Handle user event in the backend using Python
 
