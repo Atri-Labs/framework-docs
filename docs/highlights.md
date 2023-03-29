@@ -236,8 +236,111 @@ To check if the server side code has built properly, we can the output of server
 
 You will get the HTML code in `html` variable above.
 
+# Publish a React drag-drop component package
+
+To publish your React package to `npm` so that other users can install it in their Atri project, you will have to create a project with following directory structure.
+
+```
+project-dir
+|--src
+|	|-- manifests
+|	|	|-- Some.jsx			# A component
+|	|	|-- Some.manifest.jsx	# Manifest for Some component
+|	|	|-- Other.jsx			# Another component
+|	|	|-- Other.manifest.jsx	# Manifest for Other component
+|	|-- manifest.config.json
+|--package.json
+```
+
+The `package.json` should look like this:
+
+```json
+{
+	"name": "npm_package_name",
+	"version": "1.0.0",
+	"description": "description",
+	"author": "author_name <author_email>",
+	"homepage": "https://github.com/cruxcode/atrilabs-engine#readme",
+	"main": "./src/manifest.config.js",
+	"files": [
+		"src",
+		"dist/manifests.bundle.js",
+		"dist/manifests.bundle.js.map"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cruxcode/atrilabs-engine.git"
+	},
+	"scripts": {
+		"build": "gen-py-classes -n ../../node_modules -i '@atrilabs/utils' -a '@atrilabs/utils'"
+	},
+	"dependencies": {
+		"@atrilabs/app-design-forest": "^1.0.0-alpha.13",
+		"@atrilabs/commands": "^1.0.0-alpha.13",
+		"@atrilabs/component-icon-manifest-schema": "^1.0.0-alpha.13",
+		"@atrilabs/core": "^1.0.0-alpha.13",
+		"@atrilabs/design-system": "^1.0.0-alpha.13",
+		"@atrilabs/layer-types": "^1.0.0-alpha.13",
+		"@atrilabs/react-component-manifest-schema": "^1.0.0-alpha.13",
+		"typescript": "^4.6.4"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.17.10",
+		"@babel/core": "^7.18.5",
+		"@babel/preset-env": "^7.18.2",
+		"@babel/preset-react": "^7.17.12",
+		"@babel/preset-typescript": "^7.17.12",
+		"@types/react": "18.0.5",
+		"react": "18.0.0",
+		"react-dom": "18.0.0",
+		"react-router-dom": "^6.6.2"
+	},
+	"atriConfig": {
+		"pythonPackageName": "python_package_name"
+	}
+}
+```
+
+In the above `package.json`, the `name` field will be used by `npm` to name your package in the npm's repository. The `atriConfig.pythonPackageName` will be used to name the python package to be published in `pip`/`conda` etc.
+
+The steps to create a component is the same as described in this [section](#create-a-new-drag-drop-component-in-react).
+
+You can publish your code to npm by running (there is no build step):
+
+```shell
+npm run publish
+```
+
+You might have to login into `npm` before running the above code.
+
+TODO: Create a utility tool that creates a scaffold for creating component package.
+
+# Install a third-party React drag-drop component package
+
+You will have to install both the React package and Python package for a component library. You can skip installing Python package if you don't plan to write a backend for your code.
+
+```shell
+npm install package_name
+pip install package_name
+```
+
+Once you have installed a component package, change the `package.json` of your Atri project as show below:
+
+```json
+scripts: {
+	    "dev": "dev-editor -i '@atrilabs/pwa-builder-manager:@atrilabs/design-system:@atrilabs/forest:@atrilabs/app-design-forest:@atrilabs/utils' -d '../example-atri-app/manifests:package_name'",
+}
+```
+
+# Create a plugin for visual builder
+
+Developers can create plugins for the visual builder.
+
 # Create your own visual builder
 
-We have plans to allow developers to create plugins for the visual builder and also allow developers to create their own visual builder.
+Developers can create their own visual builder by using the building blocks from `Atri-Labs/atrilabs-engine`.
 
 # Plans on how backend can be extended
