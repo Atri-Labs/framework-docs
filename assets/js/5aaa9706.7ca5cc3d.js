@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkatriframework=self.webpackChunkatriframework||[]).push([[9844],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
