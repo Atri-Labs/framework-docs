@@ -227,11 +227,18 @@ npm run build
 
 If you are using a virtual environment, make sure you run this command from inside the virtual environment.
 
+## Test the build
+
 To check if the server side code has built properly, we can the output of server side rendering. To do server side rendering, open up NodeJS shell using `node` in your terminal and then write the following code:
 
 ```nodejs
 > const index = require("dist/app-build/server/index.js")
 > const html = index.default.renderPage()
+```
+# Serve your application in production
+
+```shell
+npm run serve
 ```
 
 You will get the HTML code in `html` variable above.
