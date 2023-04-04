@@ -5,7 +5,7 @@ description: Some desc
 
 # Gotchas
 
-1. It only works in Unix based systems currently. It won't work in Windows.
+1. This version has been tested in Chrome 100+ versions. It might not work in Firefox etc.
 
 # Create an Atri app
 
