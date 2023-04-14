@@ -213,6 +213,22 @@ export default SomeDevComponent;
 
 Note: You need to stop the development server and restart it whenever you add a new component. You don't need to do this when you modify a component and hot-reloading will kick in whenever you make a change.
 
+4. Add a Python class for the React component
+
+Once you have created the React component by following the steps above, you can generate a Python class for this component. This Python class will act as the data representation of the component in the backend. This Python class has the data transformation logic and delta calculator.
+
+```shell
+npm gen-py-classes
+```
+
+The Python class gets generated in `dist/atri-py-pkg`. You need to install this package locally to be able to use this component in Python. To install a python package locally, run the following command:
+
+```shell
+pip install -e ./dist/atri-py-pkg
+```
+
+Note: You need to install a package locally only once. If you create another React component, you only need to run `npm gen-py-classes`.
+
 # Handle user event in the backend using Python
 
 Currently we support FastAPI in the backend and have plans to support Django as well in the near future. You can see this video to know more about how we are writing backend.
