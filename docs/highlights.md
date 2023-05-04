@@ -5,23 +5,28 @@ description: Some desc
 
 # Gotchas
 
-1. This version has been tested in Chrome 100+ versions. It might not work in Firefox etc.
+1. This version has been tested extensively on Chrome 100+ versions and it is fully functional. However, it is possible that it may not work as intended on other browsers like Firefox..
 
-# Create an Atri app
+# Creating an Atri app
 
-## Pre-requisites
+## Pre-requisites Needed
 
-You need `NodeJS >= 16`, `npm`, `npx` & `python >= 3.7` installed.
+To get started, it is important to have certain tools installed on your system. These includes:
+* `NodeJS >= 16`, 
+* `npm`, `npx`,
+* `Python >= 3.7` 
 
-## Create an initial scaffold
+These tools are essential for running the necessary software and ensuring smooth execution of programs.
+
+## Creating an initial scaffold
 
 ```shell
 npx @atrilabs/new
 ```
 
-This will promt you few questions such as the name of your pacakge. The name you choose for your package will be the same as the directory that gets created.
+When creating a package, you'll be asked a few questions, including what name you'd like to give it. It's important to note that the name you select will also be used for the corresponding directory that will be generated.
 
-The initial directory structure will look as shown below:
+The Structure of the directory will look as shown below:
 
 ```
 project_dir
@@ -39,50 +44,59 @@ project_dir
 |-- package.json
 ```
 
-## Install NodeJS packages
+## Installing NodeJS packages
+Before installing the NodeJS packages, it is important to be in the project directory.
 
 ```shell
 cd \<project_dir\>
 npm install
 ```
 
-## Create a python virtual environment (optional)
+## Creating a python virtual environment (optional)
 
 ```shell
 python -m venv venv
 ```
 
-You can use any virtual enviornment manager you like such as `conda`, `pipenv`, `poetry` etc.
+You can use any virtual enviornment manager you like such as:
+* `conda` 
+* `pipenv` 
+* `poetry` 
+* and more.
 
 ## Install Python packages
 
-If you are using a virtual environment, please activate the virtual environment before you run the command shown below.
+If you are using a virtual environment, you need to activate the virtual environment by running the command shown below.
 
 ```shell
-cd \<project_dir\>
+cd \<project_dir\> # It isimportant to be in the project directory
 
-# activate virtual environment if you are using any
+# activating virtual environment
 source ./venv/bin/activate
 
+# Now you can install the requirements
 python -m pip install -r controllers/requirements.txt
 ```
 
 # Start the development servers
 
-Currently, you need to start four development servers, each handling a different task.
+it is required to initiate four development servers, with each server being responsible for handling a specific task.
 
-1. Start the python backend server
+1. Starting the python backend server
 
-Let's first start the python backend server.
+
+To begin, start the Python backend server. This will enable you to establish the necessary foundation for your project and ensure that the backend is functioning correctly
 
 ```shell
-cd \<project_dir\>
+cd \<project_dir\> # Important to be in the project dir
 # activate the virtual environment before you run the code below
 
 python -m controllers.main serve
 ```
 
-2. Start the frontend server
+2. Starting the frontend server
+
+This will launch the server and make your website accessible via your browser.
 
 ```shell
 npm run dev
@@ -90,19 +104,22 @@ npm run dev
 
 This will open up `http://localhost:3000` in your browser.
 
-3. Start Python glue code generator
+3. Starting Python glue code generator
+
 
 ```shell
 npm run dev-py-app
 ```
 
-4. Start the visual editor
+4. Starting the visual editor
+
 
 ```shell
 npm run editor
 ```
 
 Visit `http://localhost:4000` in your browser to use the visual builder.
+This will allow you to create and edit content with a more user-friendly interface, including features such as drag-and-drop and formatting tools.
 
 # CanvasZone - One of Atri's innovation
 
