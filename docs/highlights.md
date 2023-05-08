@@ -123,7 +123,7 @@ This will allow you to create and edit content with a more user-friendly interfa
 
 # CanvasZone - One of Atri's innovation
 
-The rectangle in the editor comes from the `<CanvasZone id={"main"}/>` in the React code in `pages/index.jsx` file. You can create a `CanvasZone` anywhere in your React code. You can pass `styles` attribute to the `CanvasZone` component like this
+The rectangular shape present in the editor originates from the `<CanvasZone id={"main"}/>` defined in the `pages/index.jsx` file of the React codebase. It is worth noting that `CanvasZone` can be instantiated at any desired location within a React application. Additionally, styles can be passed to the `CanvasZone` component using the `styles` attribute.
 
 ```jsx
 import { CanvasZone } from "@atrilabs/canvas-zone";
@@ -136,11 +136,11 @@ import { CanvasZone } from "@atrilabs/canvas-zone";
 
 # Drag-Drop components in the CanvasZone
 
-You will notice a rectangle (CanvasZone) in the editor. You can start by dropping a component in that rectangle. To drop a component, click on the `+` icon on top-left side of the editor. You will find a grid of components for drag-drop.
+Within the editor, you will notice a rectangle (CanvasZone). You can start by dropping a component in that rectangle. To drop a component, click on the `+` icon on top-left corner of the editor. Subsequently, you will find a grid of components for drag-drop.
 
-# Write React code
+# Writing React code
 
-In the `pages/index.jsx` file you can modify the existing code to anything that you usually write in any React codebase.
+Within the `pages/index.jsx` file, you can modify the existing code to anything that you usually write in any React codebase.
 
 For example,
 
@@ -180,9 +180,9 @@ export default function () {
 }
 ```
 
-Note that each CanvasZone in a page must have a unique id.
+Note: Each CanvasZone in a page must have a unique id.
 
-# Create a new drag-drop component in React
+# Creating a new drag-drop component in React
 
 You can write your React code the way you write them in any other framework, for example, you can make API calls and handle side effects in `useEffect`. There are two steps (three steps in some cases) to create a drag-drop component:
 
@@ -202,7 +202,7 @@ const SomeComponent = React.forwardRef((props, ref) => {
 export default SomeComponent;
 ```
 
-2. Create a manifest for the React Component. A manifest describes how the component should behave inside the editor and how the build tools should handle it.
+2. Creating a manifest for the React Component. A manifest serves as a description of how the component should behave inside the editor and how the build tools should handle it.
 
 Create a `manifests/Some.manifest.jsx` file with the following code (Notice the file name pattern):
 
@@ -212,7 +212,8 @@ import { createComponentManifest } from "@atrilabs/utils";
 export default createComponentManifest({ name: "Some" });
 ```
 
-3. Create a development React component. This step is optional because you might need it only for components that might have to behave a bit different inside editor and in actual app. One example could be the Flex component that we provide in the editor. The `Flex` component must have some `height` if there are no children element inside it so that it provides some room for the user to drop a new component.
+3. Create a development React component. This step is optional because you might need it only for components that might have to behave a bit different inside editor and in actual app. 
+An example could be the Flex component that is available in the editor. The `Flex` component must have some `height`, if there are no children element inside it so that it provides some room for the user to drop a new component.
 
 To create a development component, create `manifests/Some.dev.jsx` file with following code.
 
@@ -228,47 +229,49 @@ const SomeDevComponent = React.forwardRef((props, ref) => {
 export default SomeDevComponent;
 ```
 
-Note: You need to stop the development server and restart it whenever you add a new component. You don't need to do this when you modify a component and hot-reloading will kick in whenever you make a change.
+Note: It is essential to stop the development server and restart it everytime you add a new component. You don't need to do this when you modify a component and hot-reloading will kick in whenever you make a change.
 
 4. Add a Python class for the React component
 
-Once you have created the React component by following the steps above, you can generate a Python class for this component. This Python class will act as the data representation of the component in the backend. This Python class has the data transformation logic and delta calculator.
+Once you have created the React component by following the steps above, a python class can be generated for this component. This Python class will act as the data representation of the component in the backend. This class has the data transformation logic and delta calculator.
 
 ```shell
 npm gen-py-classes
 ```
 
-The Python class gets generated in `dist/atri-py-pkg`. You need to install this package locally to be able to use this component in Python. To install a python package locally, run the following command:
+The Python class gets generated in `dist/atri-py-pkg`. This package must be installed locally to be able to use this component in Python. 
+
+To install a python package locally, run the following command:
 
 ```shell
 pip install -e ./dist/atri-py-pkg
 ```
 
-Note: You need to install a package locally only once. If you create another React component, you only need to run `npm gen-py-classes`.
+Note: The Python package should only be installed locally once. If you create another React component, you only need to run `npm gen-py-classes`.
 
-# Handle user event in the backend using Python
+# Handling user event in the backend using Python
 
-Currently we support FastAPI in the backend and have plans to support Django as well in the near future. You can see this video to know more about how we are writing backend.
+Currently only FastAPI is supported in the backend and Django will be added in later updates. Check out this video to know more on how the backend is being developed.
 
-# Build your applicaton
+# Building your applicaton
 
-Once you have made all the changes you want in the app, you can run the following code to build your application.
+Once you all changes you want in the app is made, you can run the following code to build your application.
 
 ```
 npm run build
 ```
 
-If you are using a virtual environment, make sure you run this command from inside the virtual environment.
+If you are using a virtual environment, make sure the command is run inside the virtual environment after activating it.
 
-## Test the build
+## Testing the build
 
-To check if the server side code has built properly, we can the output of server side rendering. To do server side rendering, open up NodeJS shell using `node` in your terminal and then write the following code:
+To verify the successful build of server-side code, we can examine the output of server-side rendering. To perform server-side rendering, access the NodeJS shell by executing the `node` command in your terminal, and then enter the following code:
 
 ```nodejs
 > const index = require("dist/app-build/server/index.js")
 > const html = index.default.renderPage()
 ```
-# Serve your application in production
+# Serving your application in production
 
 ```shell
 npm run serve
@@ -276,9 +279,9 @@ npm run serve
 
 You will get the HTML code in `html` variable above.
 
-# Publish a React drag-drop component package
+# Publishing a React drag-drop component package
 
-To publish your React package to `npm` so that other users can install it in their Atri project, you will have to create a project with following directory structure.
+To publish your React package to `npm` so other users can install it in their Atri project, you will have to create a project with following directory structure.
 
 ```
 project-dir
@@ -346,7 +349,7 @@ The `package.json` should look like this:
 
 In the above `package.json`, the `name` field will be used by `npm` to name your package in the npm's repository. The `atriConfig.pythonPackageName` will be used to name the python package to be published in `pip`/`conda` etc.
 
-The steps to create a component is the same as described in this [section](#create-a-new-drag-drop-component-in-react).
+The steps to create a component is the same as described in this [section](#creating-a-new-drag-drop-component-in-react).
 
 You can publish your code to npm by running (there is no build step):
 
@@ -358,7 +361,7 @@ You might have to login into `npm` before running the above code.
 
 TODO: Create a utility tool that creates a scaffold for creating component package.
 
-# Install a third-party React drag-drop component package
+# Installing a third-party React drag-drop component package
 
 You will have to install both the React package and Python package for a component library. You can skip installing Python package if you don't plan to write a backend for your code.
 
