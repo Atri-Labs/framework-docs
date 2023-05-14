@@ -13,8 +13,7 @@ description: Some desc
 
 To get started, it is important to have certain tools installed on your system. These includes:
 * `NodeJS >= 16`, 
-* `npm`, `npx`,
-* `Python >= 3.7` 
+* `npm`, `npx`
 
 These tools are essential for running the necessary software and ensuring smooth execution of programs.
 
@@ -30,13 +29,6 @@ The Structure of the directory will look as shown below:
 
 ```
 project_dir
-|-- controllers
-|	|-- routes				# this directory contains backend controller python files
-|	|-- __init__.py
-|	|-- app.py				# Contains the FastAPI app
-|	|-- main.py				# This is the entry file to start the uvicorn server
-|	|-- requirements.tx		# Contains initial list of python packages for Atri project
-|	|-- utils.py			# Some utility code required by app.py & main.py
 |-- manifests				# New React components are created here for drag-drop
 |-- pages					# Works almost like NextJS
 |-- public					# It contiains assets & some CSS files
@@ -52,49 +44,11 @@ cd \<project_dir\>
 npm install
 ```
 
-## Creating a python virtual environment (optional)
-
-```shell
-python -m venv venv
-```
-
-You can use any virtual enviornment manager you like such as:
-* `conda` 
-* `pipenv` 
-* `poetry` 
-* and more.
-
-## Install Python packages
-
-If you are using a virtual environment, you need to activate the virtual environment by running the command shown below.
-
-```shell
-cd \<project_dir\> # It isimportant to be in the project directory
-
-# activating virtual environment
-source ./venv/bin/activate
-
-# Now you can install the requirements
-python -m pip install -r controllers/requirements.txt
-```
-
 # Start the development servers
 
 it is required to initiate four development servers, with each server being responsible for handling a specific task.
 
-1. Starting the python backend server
-
-
-To begin, start the Python backend server. This will enable you to establish the necessary foundation for your project and ensure that the backend is functioning correctly
-
-```shell
-cd \<project_dir\> # Important to be in the project dir
-# activate the virtual environment before you run the code below
-
-python -m controllers.main serve
-```
-
-2. Starting the frontend server
+1. Starting the frontend server
 
 This will launch the server and make your website accessible via your browser.
 
@@ -104,14 +58,14 @@ npm run dev
 
 This will open up `http://localhost:3000` in your browser.
 
-3. Starting Python glue code generator
+2. Starting Python glue code generator
 
 
 ```shell
 npm run dev-py-app
 ```
 
-4. Starting the visual editor
+3. Starting the visual editor
 
 
 ```shell
@@ -230,22 +184,6 @@ export default SomeDevComponent;
 
 Note: You need to stop the development server and restart it whenever you add a new component. You don't need to do this when you modify a component and hot-reloading will kick in whenever you make a change.
 
-4. Add a Python class for the React component
-
-Once you have created the React component by following the steps above, you can generate a Python class for this component. This Python class will act as the data representation of the component in the backend. This Python class has the data transformation logic and delta calculator.
-
-```shell
-npm gen-py-classes
-```
-
-The Python class gets generated in `dist/atri-py-pkg`. You need to install this package locally to be able to use this component in Python. To install a python package locally, run the following command:
-
-```shell
-pip install -e ./dist/atri-py-pkg
-```
-
-Note: You need to install a package locally only once. If you create another React component, you only need to run `npm gen-py-classes`.
-
 # Handle user event in the backend using Python
 
 Currently we support FastAPI in the backend and have plans to support Django as well in the near future. You can see this video to know more about how we are writing backend.
@@ -344,7 +282,7 @@ The `package.json` should look like this:
 }
 ```
 
-In the above `package.json`, the `name` field will be used by `npm` to name your package in the npm's repository. The `atriConfig.pythonPackageName` will be used to name the python package to be published in `pip`/`conda` etc.
+In the above `package.json`, the `name` field will be used by `npm` to name your package in the npm's repository.
 
 The steps to create a component is the same as described in this [section](#create-a-new-drag-drop-component-in-react).
 
@@ -370,8 +308,10 @@ pip install package_name
 Once you have installed a component package, change the `package.json` of your Atri project as show below:
 
 ```json
-scripts: {
-	    "dev": "dev-editor -i '@atrilabs/pwa-builder-manager:@atrilabs/design-system:@atrilabs/forest:@atrilabs/app-design-forest:@atrilabs/utils' -d '../example-atri-app/manifests:package_name'",
+{
+  "scripts": {
+    "dev": "dev-editor -i '@atrilabs/pwa-builder-manager:@atrilabs/design-system:@atrilabs/forest:@atrilabs/app-design-forest:@atrilabs/utils' -d '../example-  atri-app/manifests:package_name'",
+  }
 }
 ```
 
